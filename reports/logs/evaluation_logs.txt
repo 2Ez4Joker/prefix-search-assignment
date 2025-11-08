@@ -1,0 +1,60 @@
+Success for query 'ма': 440 results found.
+Success for query 'йогурт гр': 115 results found.
+Success for query 'bon pa': 41 results found.
+Success for query 'холс': 138 results found.
+Success for query 'крем для рук': 247 results found.
+Success for query 'масло раст 10л': 231 results found.
+Success for query 'кар тофель': 374 results found.
+Success for query 'xfq': 49 results found.
+Success for query 'adapter usb c': 168 results found.
+Success for query 'pr': 12 results found.
+Success for query 'riesling mos': 30 results found.
+Success for query 'памперсы 3': 217 results found.
+Success for query 'масло сл': 458 results found.
+Success for query 'филе инд': 311 results found.
+Success for query 'teos': 50 results found.
+Success for query 'греч не': 272 results found.
+Success for query 'prosecco ro': 53 results found.
+Success for query 'джин то': 138 results found.
+Success for query 'хозяйст мыло': 66 results found.
+Success for query 'power bank 20': 85 results found.
+Success for query 'сыр гауда': 121 results found.
+Success for query 'diap night': 111 results found.
+Success for query 'cat adult': 109 results found.
+Success for query 'dog hypo': 121 results found.
+Success for query 'san pelle': 95 results found.
+Success for query 'посуд моющ': 155 results found.
+Success for query 'лампа led е27': 124 results found.
+Success for query 'мешки 120л': 130 results found.
+Success for query 'круп греч': 124 results found.
+Success for query 'рыба фил': 331 results found.
+Success for query 'йогурт греческий': 137 results found.
+Success for query 'lay chips': 38 results found.
+Success for query 'масло сливочное крестьян': 142 results found.
+Success for query 'санпел': 298 results found.
+Failure for query 'xfqyfz сервиз': No results.
+Success for query 'cheddar 5kg': 85 results found.
+Success for query 'fris cat adult': 121 results found.
+Success for query 'прокладки ночные': 307 results found.
+Success for query 'масло растительное horeca': 352 results found.
+Success for query 'филе индейки 5кг': 175 results found.
+Success for query 'памперсы размер 3 night': 127 results found.
+Success for query 'adapter type c gan': 77 results found.
+Success for query 'power bank wireless': 16 results found.
+Success for query 'riesling mosel 1.5l': 43 results found.
+Success for query 'prosc ros': 24 results found.
+Success for query 'джин гараж грейп': 136 results found.
+Success for query 'витамины иммунитет': 154 results found.
+Success for query 'маска для волос ker': 266 results found.
+Success for query 'лампа led smart': 97 results found.
+Success for query 'trash bags 30l': 36 results found.
+Success for query 'cle an dish': 71 results found.
+Success for query 'гель для душа sensitive': 197 results found.
+Success for query 'puree mango': 42 results found.
+Success for query 'cat indoor steril': 60 results found.
+Success for query 'dog hypo salmon': 10 results found.
+Success for query 'energy drink zero': 91 results found.
+Success for query 'сахар меш 25': 133 results found.
+Success for query 'teabag herbal detox': 57 results found.
+Success for query 'сыр моцарелла 2 кг': 153 results found.
+Success for query 'gloves nitrile m': 72 results found.
