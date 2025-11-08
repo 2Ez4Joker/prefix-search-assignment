@@ -1,10 +1,10 @@
-FROM python:3.12-slim  # Обновил до Python 3.12 для 2025
+FROM python:3.12-slim
 
 WORKDIR /app
-COPY . /app
 
-# Установка зависимостей
-RUN pip install --no-cache-dir elasticsearch sentence-transformers numpy difflib
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-# CMD для запуска: Сначала инспекция/загрузка, затем оценка
-CMD ["sh", "-c", "python tools/load_catalog.py --index && python tools/evaluate.py"]
+COPY . .
+
+CMD ["python", "tools/evaluate.py", "--queries", "data/prefix_queries.csv", "--output", "reports/evaluation_template.csv"]

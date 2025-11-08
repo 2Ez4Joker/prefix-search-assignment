@@ -1,4 +1,17 @@
 # Prefix Search Assignment Assets
+## Инструкции по запуску
+1. Клонирование репозитория
+git clone https://github.com/2Ez4Joker/prefix-search-assignment.git
+cd <path to prefix-search-assignment>
+2. Сборка Docker-образа
+docker build -t prefix-search-app .
+3. Запуск контейнера
+docker run --rm -v ${PWD}/reports:/app/reports prefix-search-app
+
+Файл с метриками 
+cat reports/metrics.csv
+
+
 
 This repository packages everything needed to run the "prefix-search ranking" test assignment:
 

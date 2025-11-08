@@ -37,8 +37,24 @@ model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 def create_index():
     if es.indices.exists(index="products"):
         es.indices.delete(index="products")
+
     settings = {
-        "settings": {"number_of_shards": 1, "number_of_replicas": 0},
+        "settings": {
+            "number_of_shards": 1,
+            "number_of_replicas": 0,
+            "analysis": {
+                "analyzer": {
+                    "edge_ngram_analyzer": {
+                        "type": "custom",
+                        "tokenizer": "standard",
+                        "filter": ["lowercase", "edge_ngram_filter"]
+                    }
+                },
+                "filter": {
+                    "edge_ngram_filter": {"type": "edge_ngram", "min_gram": 1, "max_gram": 20}
+                }
+            }
+        },
         "mappings": {
             "properties": {
                 "name": {"type": "text", "analyzer": "edge_ngram_analyzer", "search_analyzer": "standard"},
@@ -47,42 +63,60 @@ def create_index():
                 "price": {"type": "float"},
                 "category": {"type": "keyword"},
                 "brand": {"type": "keyword"},
-                "weight": {"type": "keyword"},  # e.g., "10л", "3 кг"
+                "weight": {"type": "keyword"},        # текстовая форма "10л"
+                "weight_num": {"type": "float"},      # числовая форма 10.0 для фильтров
                 "vector": {"type": "dense_vector", "dims": 384, "index": True, "similarity": "cosine"}
             }
         }
     }
-    analyzers = {
-        "analysis": {
-            "analyzer": {"edge_ngram_analyzer": {"type": "custom", "tokenizer": "standard", "filter": ["lowercase", "edge_ngram_filter"]}},
-            "filter": {"edge_ngram_filter": {"type": "edge_ngram", "min_gram": 1, "max_gram": 20}}
-        }
-    }
-    settings["settings"].update(analyzers)
+
     es.indices.create(index="products", body=settings)
     print("Created Elasticsearch index 'products'.")
+
+def parse_weight(weight_str: str) -> float | None:
+    """Выделяет число из строки веса, возвращает float или None."""
+    if not weight_str:
+        return None
+    match = re.search(r'[\d\.]+', weight_str)
+    return float(match.group()) if match else None
 
 def load_and_index(xml_path: str):
     tree = ET.parse(xml_path)
     root = tree.getroot()
     bulk_data = []
+
     for product in root.findall('.//product'):
-        doc = {
-            "name": product.findtext('name', '').strip(),
-            "description": product.findtext('description', '').strip(),
-            "price": float(product.findtext('price', '0.0')),
-            "category": product.findtext('category', ''),
-            "brand": product.findtext('brand', ''),
-            "weight": product.findtext('weight', '')
-        }
-        if not doc["name"]:
+        name = product.findtext('name', '').strip()
+        if not name:
             continue
-        norm_name = normalize_text(doc["name"])
-        doc["name_variants"] = generate_translit_variants(norm_name)
-        embedding_text = f"{norm_name} {doc['description']}"
-        doc["vector"] = model.encode(embedding_text).tolist()
+
+        description = product.findtext('description', '').strip()
+        price = float(product.findtext('price', '0.0'))
+        category = product.findtext('category', '')
+        brand = product.findtext('brand', '')
+        weight = product.findtext('weight', '')
+
+        norm_name = normalize_text(name)
+        name_variants = generate_translit_variants(norm_name)
+        embedding_text = f"{norm_name} {description}"
+        vector = model.encode(embedding_text).tolist()
+        weight_num = parse_weight(weight)
+
+        doc = {
+            "name": name,
+            "name_variants": name_variants,
+            "description": description,
+            "price": price,
+            "category": category,
+            "brand": brand,
+            "weight": weight,
+            "weight_num": weight_num,
+            "vector": vector
+        }
+
         bulk_data.append({"index": {"_index": "products"}})
         bulk_data.append(doc)
+
     if bulk_data:
         es.bulk(operations=bulk_data)
     print(f"Indexed {len(bulk_data)//2} products.")
@@ -114,7 +148,7 @@ def main() -> None:
         raise SystemExit(f"Catalog not found: {path}")
 
     summarize_catalog(path)
-    
+
     if args.index:
         create_index()
         load_and_index(args.catalog)
