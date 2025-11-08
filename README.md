@@ -7,6 +7,7 @@ cd <path to prefix-search-assignment>
 docker build -t prefix-search-app .
 3. Запуск контейнера
 docker run --rm -v ${PWD}/reports:/app/reports prefix-search-app
+docker-compose up --build
 
 Файл с метриками 
 cat reports/metrics.csv
