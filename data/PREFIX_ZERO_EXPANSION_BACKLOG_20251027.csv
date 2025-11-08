@@ -1,0 +1,201 @@
+site_id,original_term,expanded_term,zero_hits,whitelist_status,current_correction,recommended_action
+674,frambini,frambinini,38,missing,,Add-whitelist
+674,вода святой источник,сахарозаменитель milford жидкий,22,missing,,Add-whitelist
+674,бон пари,бон paris,11,missing,,Add-whitelist
+674,подарочный набор чай гринфилд,подарочный набор чай greenfield,10,missing,,Add-whitelist
+674,голень куриная ашан золтая птица,голень куриная ашан золотая птица,9,missing,,Add-whitelist
+674,бусы на елку,бусы елочное украшение,8,missing,,Add-whitelist
+674,яблоки целеста,яблоков celesta,7,missing,,Add-whitelist
+674,колбаса сырокопченая нарезка150 грамм,колбаса сырокопченая нарезка 150 грамм,7,missing,,Add-whitelist
+674,водка белуга 6 л,водка белитровуга 6 л,6,missing,,Add-whitelist
+674,Кукуруза,кукуруза млрлженая,6,missing,,Add-whitelist
+674,звезда на елку,звезда елочное украшение,6,missing,,Add-whitelist
+674,Пельмени,наггетсы куриныепельмени,5,missing,,Add-whitelist
+674,master gurme,master gourmet,5,missing,,Add-whitelist
+674,циокининовая паса для цвеов,циокининовая паса для цветов,5,missing,,Add-whitelist
+674,колбаса с плесенью,колбаса сырокопченая с плесенью,5,missing,,Add-whitelist
+674,similac gold 1,similac gold 1200,5,missing,,Add-whitelist
+674,Кофе 3 в 1,кофе 3 в 11,5,missing,,Add-whitelist
+674,Туалетная бумага,томатный концентрат,5,missing,,Add-whitelist
+674,Frambini,frambinini,5,missing,,Add-whitelist
+674,Proplan,pro plan,4,missing,,Add-whitelist
+674,бура,буратто,4,missing,,Add-whitelist
+674,Киндер набор,киндеров набор,4,missing,,Add-whitelist
+674,конфеты в коробке новосибирс,конфеты в коробке новосибирской,4,missing,,Add-whitelist
+674,spc напольное покрыие,spc напольное покрытие,4,missing,,Add-whitelist
+674,бонпари,бон paris,4,missing,,Add-whitelist
+674,конфеты помадка в корбке,конфеты помадка в коробке,4,missing,,Add-whitelist
+674,для садовых инс,для садовых ин с,4,missing,,Add-whitelist
+674,матрас топер 120х200,матрас топпер 120х200,4,missing,,Add-whitelist
+674,наконечник на елку,наконечник елочное украшение,4,missing,,Add-whitelist
+674,колбаски варено копченые,колбаски вареная копченые,4,missing,,Add-whitelist
+674,жир курдючий,жир курдючный,4,missing,,Add-whitelist
+674,кофе 3 в 1,кофе 3 в 11,4,missing,,Add-whitelist
+674,гирлянда 100 метро уличная 100метров,гирлянда 100 метро уличная 100 метров,4,missing,,Add-whitelist
+674,распродажа,распродажа599,4,missing,,Add-whitelist
+674,трусы женкие 66 размера,6трусы женкие 66 размера,4,missing,,Add-whitelist
+674,вискас 1.9 кг,whiskas 1 9 кг,4,missing,,Add-whitelist
+674,Салфетки для стола,ши елочное украшение,4,missing,,Add-whitelist
+674,краска для волос provocator or,краска для волос provocateur or,3,missing,,Add-whitelist
+674,водка немиров,водка nemiroff,3,missing,,Add-whitelist
+674,амои,аморои,3,missing,,Add-whitelist
+674,Халат детски,халат детский,3,missing,,Add-whitelist
+674,ручки стир,ручки стиральный,3,missing,,Add-whitelist
+674,гном ново,гном новогодний,3,missing,,Add-whitelist
+674,сало с можевельником,сало с можжевельником,3,missing,,Add-whitelist
+674,сковородка антипригарная 2сковорода с крышкой4,сковородка антипригарная 2сковорода с крышкой 4,3,missing,,Add-whitelist
+674,йогурты,теплое кофе,3,missing,,Add-whitelist
+674,наматрасник 180,наматрасник 180х200,3,missing,,Add-whitelist
+674,Ollin,olline,3,missing,,Add-whitelist
+674,корден блю,корден blue,3,missing,,Add-whitelist
+674,тонометр,тонометра,3,missing,,Add-whitelist
+2056,teos,густой йогурт и творожки,4359,missing,,Add-whitelist
+2056,мороз,морозко,3792,present,морозко,Investigate-existing
+2056,рот,ротфронт,2822,present,ротфронт,Investigate-existing
+2056,теос,густой йогурт и творожки,2805,missing,,Add-whitelist
+2056,панировочные сухари,панировочные сухарики,2308,missing,,Add-whitelist
+2056,бурата,буратта,1586,present,буратта,Investigate-existing
+2056,бура,буратта,1471,present,буратта,Investigate-existing
+2056,чебу,чебуреки,1349,present,чебуреки,Investigate-existing
+2056,халуми,халумис,1278,present,халумис,Investigate-existing
+2056,Крупс,крупской,1250,missing,,Add-whitelist
+2056,пингви,pinguin,1194,missing,,Add-whitelist
+2056,йогурт гре,йогурт гречка,1123,missing,,Add-whitelist
+2056,мах,махеев,1031,present,махеев,Investigate-existing
+2056,fran,frank,970,missing,,Add-whitelist
+2056,рот и,ротфронт и,959,missing,,Add-whitelist
+2056,коу,коул-слоу,944,present,коул-слоу,Investigate-existing
+2056,хое,ходе,931,missing,,Add-whitelist
+2056,сен,сенежская,908,present,сенежская,Investigate-existing
+2056,тру,true,850,missing,,Add-whitelist
+2056,сухари панировочные,сухарики панировочные,846,missing,,Add-whitelist
+2056,разры,разрыхлитель,816,present,разрыхлитель,Investigate-existing
+2056,тар тар,тархун тар,785,missing,,Add-whitelist
+2056,кваш,квашеная,768,present,квашеная,Investigate-existing
+2056,разрых,разрыхлитель,727,present,разрыхлитель,Investigate-existing
+2056,купи,купино,725,present,купино,Investigate-existing
+2056,сухар,сухари,692,present,сухари,Investigate-existing
+2056,ролто,ролтон,687,present,ролтон,Investigate-existing
+2056,рот фронт,ротфронт фронт,681,missing,,Add-whitelist
+2056,крем чиз,крем чизкейк,677,missing,,Add-whitelist
+2056,кирие,кириешки,660,present,кириешки,Investigate-existing
+2056,Ава кадр,авокадо кадр,658,missing,,Add-whitelist
+2056,malt,maltagliati,654,present,maltagliati,Investigate-existing
+2056,колбоса,колбасные,637,present,колбасные,Investigate-existing
+2056,сыр коси,сыр кости,618,missing,,Add-whitelist
+2056,мира торг,мираторг торг,604,missing,,Add-whitelist
+2056,сыр творо,сыр творог,603,missing,,Add-whitelist
+2056,Питер,питерски,595,missing,,Add-whitelist
+2056,buld,build,584,missing,,Add-whitelist
+2056,чабата,чабатта,543,present,чабатта,Investigate-existing
+2056,сухари панировочные ,сухарики панировочные,530,missing,,Add-whitelist
+2056,панировочные сухари ,панировочные сухарики,517,missing,,Add-whitelist
+2056,есентуки,ессентуки,508,present,ессентуки,Investigate-existing
+2056,чиаб,чиабатта,507,present,чиабатта,Investigate-existing
+2056,сига,сигареты,492,present,сигареты,Investigate-existing
+2056,teos ,густой йогурт и творожки,464,missing,,Add-whitelist
+2056,кругетсы,круггетсы,449,missing,,Add-whitelist
+2056,сочни,сочник,446,present,сочник,Investigate-existing
+2056,сухари пани,сухарики пони,443,missing,,Add-whitelist
+2056,бальзами,бальзамический,437,present,бальзамический,Investigate-existing
+2056,кириеш,кириешки,434,present,кириешки,Investigate-existing
+5631,холс,halls,10,present,halls,Investigate-existing
+5631,Фреш бар,fresh баранки,6,missing,,Add-whitelist
+5631,ХОЛС,halls,6,missing,,Add-whitelist
+5631,мармелад,мармеландия,4,present,мармеландия,Investigate-existing
+5631,МАРМЕЛАД,мармеландия,3,missing,,Add-whitelist
+5631,кеф хуто,кефир хутор,3,missing,,Add-whitelist
+5631,hal,halls,2,present,halls,Investigate-existing
+5631,ПЕРВЫМ ДЕЛОМ ВОДА ПИТ. 0.5Л Б/Г,первым делом вода питание 0 5л б г,2,missing,,Add-whitelist
+5631,джин тоник,джин тоника,2,missing,,Add-whitelist
+5631,гараж грейфрукт,garage грейпфрукт,2,missing,,Add-whitelist
+5631,желе аппети,желе аппетитная,2,missing,,Add-whitelist
+5631,Печенье овсяное для детей раннего возр. 50н Фруто Няня,печенье овсяное для детей раннего возр 50н фрутоняня няня,2,missing,,Add-whitelist
+5631,фасоль,фасулье,2,present,фасулье,Investigate-existing
+5631,конф коровка александровск,конфеты коровка александровский,2,missing,,Add-whitelist
+5631,фреш бар,fresh баранки,2,missing,,Add-whitelist
+5631,мармелад 100,мармеландия 100,2,missing,,Add-whitelist
+5631,ФАСОЛЬ,фасулье,2,missing,,Add-whitelist
+5631,литл энерджи,little energy,2,missing,,Add-whitelist
+5631,OP*N*GO СЕМЕЧКИ СОЛЕНЫЕ ОЧИЩ. 70Г СТАКАН1,op n go семечки соленые очищает 70г стакан1,2,missing,,Add-whitelist
+5631,СОЛО КАРМЕН ТОРТ СНИКЕРС 650Г,соломка кармен торт snickers 650г,1,missing,,Add-whitelist
+5631,Сенежс аяя,сенежская ая,1,missing,,Add-whitelist
+5631,Акбар вербена мелиса,akbar вербена melissa,1,missing,,Add-whitelist
+5631,Аперитив Stan,aperitive стан,1,missing,,Add-whitelist
+5631,село зелен,село зеленью,1,missing,,Add-whitelist
+5631,мармелад жевательный,мармеландия жевательный,1,missing,,Add-whitelist
+5631,Хлеб амер,хлеб americano,1,missing,,Add-whitelist
+5631,Рубленые сарделки,рубленые сардельки,1,missing,,Add-whitelist
+5631,КУРИЦА В СЛИВ ЧЕСН,курица в слив чесноком,1,missing,,Add-whitelist
+5631,гор шту,гор штучка,1,missing,,Add-whitelist
+5631,7 ТАЙН ВКУСА ДЕСЕРТ В ВАФ. РОЖКЕ 60Г,7 тайн вкуса десерт в вафли рожке 60г,1,missing,,Add-whitelist
+5631,сендвич слоен,sandwich слоен,1,missing,,Add-whitelist
+5631,asian dreams,asian dreamies,1,missing,,Add-whitelist
+5631,"ДРАЙВ НАПИТОК ЭНЕРГ. ГАЗ В АСС 0,449Л ЖБ",drive напиток энергетический газ в асс 0 449л ж б,1,missing,,Add-whitelist
+5631,ДОБ НАП,добрый нап,1,missing,,Add-whitelist
+5631,фрэш ба,fresh ба,1,missing,,Add-whitelist
+5631,ФРУТОН ПЕЧЕН,фрутоняня печен,1,missing,,Add-whitelist
+5631,ДОБ НАП3,добрый нап3,1,missing,,Add-whitelist
+5631,Первым делом лимонад,первым делом лимонады,1,missing,,Add-whitelist
+5631,ДЯДЯ ВАН,дядя ванилин,1,missing,,Add-whitelist
+5631,говядина туш,говядина тушка,1,missing,,Add-whitelist
+5631,ткемал,ткемали,1,missing,,Add-whitelist
+5631,ПЕРВЫМ ДЕЛОМ ВОДА ПИТ. 5Л,первым делом вода питание 5л,1,missing,,Add-whitelist
+5631,киндер мол,kinder молоко,1,missing,,Add-whitelist
+5631,мармелад чупа чупс,мармеландия chupa chups,1,missing,,Add-whitelist
+5631,мега чипс,мега чипсы,1,missing,,Add-whitelist
+5631,мармелад 300 г,мармеландия 300 г,1,missing,,Add-whitelist
+5631,шлиц,schlitz,1,present,schlitz,Investigate-existing
+5631,йогурт акти,йогурт активиа йогурт,1,missing,,Add-whitelist
+5631,евервес тоник,evervess тоника,1,missing,,Add-whitelist
+5631,МАКФА РАКУШК,makfa ракушки,1,missing,,Add-whitelist
+6321,масло ,масло с,440,missing,,Add-whitelist
+6321,масло с,масло сл,372,missing,,Add-whitelist
+6321,си,сиг,329,missing,,Add-whitelist
+6321,сиг,сига,284,present,сигареты,Investigate-existing
+6321,сигарет,сигареты,233,present,сигареты,Investigate-existing
+6321,сигар,сигаре,196,present,сигареты,Investigate-existing
+6321,гель ,гель дл,185,missing,,Add-whitelist
+6321,сигаре,сигарет,169,present,сигареты,Investigate-existing
+6321,печень курина,печень куриная,163,present,печень куриная,Investigate-existing
+6321,сига,сигар,162,present,сигареты,Investigate-existing
+6321,то,тот,143,missing,,Add-whitelist
+6321,гель для,гель для ,141,missing,,Add-whitelist
+6321,са,сас,137,present,сахар,Investigate-existing
+6321,ог,огк,136,missing,,Add-whitelist
+6321,савоярд,савоярди,136,present,савоярди,Investigate-existing
+6321,гель дл,гель для,132,present,гель для,Investigate-existing
+6321,альм,альме,117,present,альме,Investigate-existing
+6321,картофель ф,картофель фри,117,missing,,Add-whitelist
+6321,гель дл,гель для ,115,present,гель для,Investigate-existing
+6321,рульк,рулька,113,present,рулька,Investigate-existing
+6321,саво,савоя,110,present,савоярди,Investigate-existing
+6321,дос,дост,109,missing,,Add-whitelist
+6321,шм,шмп,108,missing,,Add-whitelist
+6321,яц,яцц,105,missing,,Add-whitelist
+6321,гранат,гранатовый весовой,104,present,гранатовый,Investigate-existing
+6321,савоя,савояр,102,present,савоярди,Investigate-existing
+6321,ще,щеб,100,missing,,Add-whitelist
+6321,сн,сну,98,missing,,Add-whitelist
+6321,сав,саво,95,present,савушкин,Investigate-existing
+6321,гр,грн,88,missing,,Add-whitelist
+6321,гель для ,гель для с,88,missing,,Add-whitelist
+6321,печень ку,печень куриная,88,present,печень куриная,Investigate-existing
+6321,твор,творж,87,present,творог,Investigate-existing
+6321,творожный сы,творожный сыр,86,present,творожный сыр,Investigate-existing
+6321,масло,масло с,85,missing,,Add-whitelist
+6321,си,сик,84,missing,,Add-whitelist
+6321,масло под,масло растительное подарочный,84,missing,,Add-whitelist
+6321,раф,рафа,82,present,рафинированное,Investigate-existing
+6321,мл,млр,81,missing,,Add-whitelist
+6321,печень ку,печень кур,81,present,печень куриная,Investigate-existing
+6321,масло с,масло сливочное сырокопченый,80,missing,,Add-whitelist
+6321,доставк,доставка,80,present,доставка,Investigate-existing
+6321,фэ,фэй,78,missing,,Add-whitelist
+6321,сыр т,сыр тв,76,missing,,Add-whitelist
+6321,иас,иасл,74,present,масло,Investigate-existing
+6321,ог,огц,74,missing,,Add-whitelist
+6321,сп,спх,73,missing,,Add-whitelist
+6321,аль,альм,72,present,альпен,Investigate-existing
+6321,сыр творожн,сыр творожный,70,present,сыр творожный,Investigate-existing
+6321,куриная печен,куриная печень,69,missing,,Add-whitelist

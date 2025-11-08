@@ -1,0 +1,121 @@
+site_id,site_name,query,correction,reason
+2056,Samokat,рондо,rondo,latin_in_corr
+2056,Samokat,м м демс,m&m's,latin_in_corr
+2056,Samokat,ай фона,iphone,latin_in_corr
+2056,Samokat,grekos,греческий йогурт,cyril_added
+2056,Samokat,aktivia,активиа,cyril_added
+2056,Samokat,rfmfxrb,кабачки,cyril_added
+2056,Samokat,polenghi,макароны детские,cyril_added
+2056,Samokat,yankee candle,ароматическая свеча,cyril_added
+2056,Samokat,ацидобифилин,ацидобифилин,equal
+2056,Samokat,ayran,айран,cyril_added
+2056,Samokat,neft,нефть,cyril_added
+2056,Samokat,barbaris,барбарис,cyril_added
+2056,Samokat,moskovskaya,московская,cyril_added
+2056,Samokat,santi,санте,cyril_added
+2056,Samokat,kapuchino,капучино,cyril_added
+2056,Samokat,адрик,adrenaline rush,latin_in_corr
+2056,Samokat,kislomolochniy,кисломолочный,cyril_added
+2056,Samokat,kislo,кисло,cyril_added
+2056,Samokat,андреналинраш,adrenaline rush,latin_in_corr
+2056,Samokat,адраш,adrenaline rush,latin_in_corr
+2164,Dixy Web,ekzo,экzo,cyril_added
+2164,Dixy Web,тесс,tess,latin_in_corr
+2164,Dixy Web,рондо,rondo,latin_in_corr
+2164,Dixy Web,м м демс,m&m's,latin_in_corr
+2164,Dixy Web,валио,valio,latin_in_corr
+2164,Dixy Web,пармалат,parmalat,latin_in_corr
+2164,Dixy Web,магги,maggi,latin_in_corr
+2164,Dixy Web,smirnoff,водка,cyril_added
+2164,Dixy Web,grekos,греческий йогурт,cyril_added
+2164,Dixy Web,yogurt,йогурт,cyril_added
+2164,Dixy Web,aktivia,активиа,cyril_added
+2164,Dixy Web,vodka,водка,cyril_added
+2164,Dixy Web,rfmfxrb,кабачки,cyril_added
+2164,Dixy Web,велле,velle,latin_in_corr
+2164,Dixy Web,yankee candle,ароматическая свеча,cyril_added
+2164,Dixy Web,лейс,lay's,latin_in_corr
+2164,Dixy Web,кофе нескафе,кофе nescafe,latin_in_corr
+2164,Dixy Web,barbaris,барбарис,cyril_added
+2164,Dixy Web,moskovskaya,московская,cyril_added
+2164,Dixy Web,kapuchino,капучино,cyril_added
+5631,Dixy B2B,ekzo,экzo,cyril_added
+5631,Dixy B2B,тесс,tess,latin_in_corr
+5631,Dixy B2B,рондо,rondo,latin_in_corr
+5631,Dixy B2B,м м демс,m&m's,latin_in_corr
+5631,Dixy B2B,хаме,hame,latin_in_corr
+5631,Dixy B2B,алпро,alpro,latin_in_corr
+5631,Dixy B2B,валио,valio,latin_in_corr
+5631,Dixy B2B,пармалат,parmalat,latin_in_corr
+5631,Dixy B2B,магги,maggi,latin_in_corr
+5631,Dixy B2B,smirnoff,водка,cyril_added
+5631,Dixy B2B,grekos,греческий йогурт,cyril_added
+5631,Dixy B2B,yogurt,йогурт,cyril_added
+5631,Dixy B2B,aktivia,активиа,cyril_added
+5631,Dixy B2B,vodka,водка,cyril_added
+5631,Dixy B2B,rfmfxrb,кабачки,cyril_added
+5631,Dixy B2B,велле,velle,latin_in_corr
+5631,Dixy B2B,polenghi,макароны детские,cyril_added
+5631,Dixy B2B,yankee candle,ароматическая свеча,cyril_added
+5631,Dixy B2B,лейс,lay's,latin_in_corr
+5631,Dixy B2B,кофе нескафе,кофе nescafe,latin_in_corr
+6321,Dixy App,ekzo,экzo,cyril_added
+6321,Dixy App,тесс,tess,latin_in_corr
+6321,Dixy App,рондо,rondo,latin_in_corr
+6321,Dixy App,м м демс,m&m's,latin_in_corr
+6321,Dixy App,хаме,hame,latin_in_corr
+6321,Dixy App,валио,valio,latin_in_corr
+6321,Dixy App,пармалат,parmalat,latin_in_corr
+6321,Dixy App,кофе нескафе,кофе nescafe,latin_in_corr
+6321,Dixy App,гринфилд,greenfield,latin_in_corr
+6321,Dixy App,моет,moet,latin_in_corr
+6321,Dixy App,domik v derevne,домик в деревне,cyril_added
+6321,Dixy App,agusha,агуша,cyril_added
+6321,Dixy App,ryazhenka,ряженка,cyril_added
+6321,Dixy App,kasha,каша,cyril_added
+6321,Dixy App,джей севен,j7,"added_digits,latin_in_corr"
+6321,Dixy App,джейсевен,j7,"added_digits,latin_in_corr"
+6321,Dixy App,джей 7,j7,latin_in_corr
+6321,Dixy App,j seven,j7,added_digits
+6321,Dixy App,jseven,j7,added_digits
+6321,Dixy App,дж 7,j7,latin_in_corr
+221,Azbuka Vkusa,ekzo,экzo,cyril_added
+221,Azbuka Vkusa,gbhj;tyjt,пирожное,cyril_added
+221,Azbuka Vkusa,bp,из,cyril_added
+221,Azbuka Vkusa,яли,yali,latin_in_corr
+221,Azbuka Vkusa,волко молко,volkomolko,latin_in_corr
+221,Azbuka Vkusa,волкомолко,volkomolko,latin_in_corr
+221,Azbuka Vkusa,просекко виктор,prosecco victor,latin_in_corr
+221,Azbuka Vkusa,тесс,tess,latin_in_corr
+221,Azbuka Vkusa,театон,teatone,latin_in_corr
+221,Azbuka Vkusa,солгар,solgar,latin_in_corr
+221,Azbuka Vkusa,сарма,sarma,latin_in_corr
+221,Azbuka Vkusa,санпеллегрино,sanpellegrino,latin_in_corr
+221,Azbuka Vkusa,сага,saga,latin_in_corr
+221,Azbuka Vkusa,рондо,rondo,latin_in_corr
+221,Azbuka Vkusa,рислинг густав,riesling gustave,latin_in_corr
+221,Azbuka Vkusa,рич,rich,latin_in_corr
+221,Azbuka Vkusa,ринарди,renardi,latin_in_corr
+221,Azbuka Vkusa,редс,redd's,latin_in_corr
+221,Azbuka Vkusa,перно,pernod,latin_in_corr
+221,Azbuka Vkusa,окта,octa,latin_in_corr
+674,Auchan,рафаээло,raffaello,latin_in_corr
+674,Auchan,крышки седенья для унитаза,крышки сиденья для унитаза,long_phrase
+674,Auchan,сейв софт,save&soft,latin_in_corr
+674,Auchan,сейв энд софт,save&soft,latin_in_corr
+674,Auchan,сейф софт,save&soft,latin_in_corr
+674,Auchan,cbyfn,сенат,cyril_added
+674,Auchan,buheirf,игрушки,cyril_added
+674,Auchan,utkm,гель,cyril_added
+674,Auchan,iyeh,шнур,cyril_added
+674,Auchan,xfqybr,чайник,cyril_added
+674,Auchan,pthrfkj,зеркало,cyril_added
+674,Auchan,adapter,адаптер,cyril_added
+674,Auchan,yjcrb,носки,cyril_added
+674,Auchan,hfcrhfcrb,раскраска,cyril_added
+674,Auchan,gjcels,посуда,cyril_added
+674,Auchan,xfqyfz,чайная,cyril_added
+674,Auchan,irfnekrf,шкатулка,cyril_added
+674,Auchan,lbcr,диск,cyril_added
+674,Auchan,ldthyst,дверная,cyril_added
+674,Auchan,nhecs,трусы,cyril_added

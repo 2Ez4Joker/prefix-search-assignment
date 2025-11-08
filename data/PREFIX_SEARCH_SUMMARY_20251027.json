@@ -1,0 +1,80 @@
+{
+  "2056": {
+    "total": 28793723,
+    "uniq_search": 556078,
+    "uniq_original": 1076259,
+    "rewrite_pct": 0.30405838800352425,
+    "prefix_expansion_pct": 0.11014695807138243,
+    "trimmed_pct": 0.13745863985702717,
+    "short_single_pct": 0.3276014359101808,
+    "short_le3_pct": 0.060223056254309314,
+    "zero_pct": 0.09589194144848862,
+    "zero_short_pct": 0.05319571519363417,
+    "zero_prefix_pct": 0.09715151089013196
+  },
+  "2164": {
+    "total": 120656,
+    "uniq_search": 17543,
+    "uniq_original": 18846,
+    "rewrite_pct": 0.1390482031560801,
+    "prefix_expansion_pct": 0.04573332449277284,
+    "trimmed_pct": 0.0042103169340936214,
+    "short_single_pct": 0.2835830791672192,
+    "short_le3_pct": 0.11598262829863414,
+    "zero_pct": 0.0,
+    "zero_short_pct": 0.0,
+    "zero_prefix_pct": 0.0
+  },
+  "5631": {
+    "total": 7409,
+    "uniq_search": 2892,
+    "uniq_original": 4355,
+    "rewrite_pct": 0.5211229585639088,
+    "prefix_expansion_pct": 0.1288972870832771,
+    "trimmed_pct": 0.08773113780537184,
+    "short_single_pct": 0.25077608314212446,
+    "short_le3_pct": 0.027534080172762855,
+    "zero_pct": 0.10865163989742205,
+    "zero_short_pct": 0.061356297093649086,
+    "zero_prefix_pct": 0.17382198952879582
+  },
+  "6321": {
+    "total": 2137209,
+    "uniq_search": 333269,
+    "uniq_original": 192756,
+    "rewrite_pct": 0.995063655449701,
+    "prefix_expansion_pct": 0.5440492717371114,
+    "trimmed_pct": 0.048580648874302884,
+    "short_single_pct": 0.40081292938594215,
+    "short_le3_pct": 0.14456377453024014,
+    "zero_pct": 0.1080923765527845,
+    "zero_short_pct": 0.0634142753913341,
+    "zero_prefix_pct": 0.09135521312890939
+  },
+  "221": {
+    "total": 37659,
+    "uniq_search": 9469,
+    "uniq_original": 0,
+    "rewrite_pct": 1.0,
+    "prefix_expansion_pct": 0.0,
+    "trimmed_pct": 0.0,
+    "short_single_pct": 0.2611062428635917,
+    "short_le3_pct": 0.023792453331209006,
+    "zero_pct": 0.0,
+    "zero_short_pct": 0.0,
+    "zero_prefix_pct": 0.0
+  },
+  "674": {
+    "total": 1130183,
+    "uniq_search": 190325,
+    "uniq_original": 88792,
+    "rewrite_pct": 0.760062750899633,
+    "prefix_expansion_pct": 0.00707407561430317,
+    "trimmed_pct": 0.01609119938983333,
+    "short_single_pct": 0.12984268919281214,
+    "short_le3_pct": 0.016599081741629454,
+    "zero_pct": 0.04376813312534342,
+    "zero_short_pct": 0.008613522685456503,
+    "zero_prefix_pct": 0.23739837398373984
+  }
+}

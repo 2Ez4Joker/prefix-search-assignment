@@ -1,0 +1,56 @@
+[
+  {
+    "site_id": 221,
+    "site_name": "Azbuka Vkusa",
+    "total_queries": 39332,
+    "short_queries": 6638,
+    "short_ratio": 0.16876843282823145,
+    "short_zero_ratio": 0.0,
+    "overall_zero_ratio": 0.0
+  },
+  {
+    "site_id": 674,
+    "site_name": "Auchan",
+    "total_queries": 1177566,
+    "short_queries": 76240,
+    "short_ratio": 0.06474371712498493,
+    "short_zero_ratio": 0.0061909758656873036,
+    "overall_zero_ratio": 0.04424720143074783
+  },
+  {
+    "site_id": 2056,
+    "site_name": "Samokat",
+    "total_queries": 30659989,
+    "short_queries": 6140320,
+    "short_ratio": 0.20027143519196958,
+    "short_zero_ratio": 0.0531363186283451,
+    "overall_zero_ratio": 0.09535655736862789
+  },
+  {
+    "site_id": 2164,
+    "site_name": "Dixy Web",
+    "total_queries": 130879,
+    "short_queries": 24896,
+    "short_ratio": 0.19022150230365453,
+    "short_zero_ratio": 0.0,
+    "overall_zero_ratio": 0.0
+  },
+  {
+    "site_id": 5631,
+    "site_name": "Dixy B2B",
+    "total_queries": 7803,
+    "short_queries": 983,
+    "short_ratio": 0.12597718826092527,
+    "short_zero_ratio": 0.03255340793489318,
+    "overall_zero_ratio": 0.10560041009868
+  },
+  {
+    "site_id": 6321,
+    "site_name": "Dixy App",
+    "total_queries": 2348403,
+    "short_queries": 676549,
+    "short_ratio": 0.28808896939750117,
+    "short_zero_ratio": 0.05797362792643253,
+    "overall_zero_ratio": 0.1050884366950647
+  }
+]

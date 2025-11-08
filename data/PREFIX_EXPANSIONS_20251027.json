@@ -1,0 +1,2527 @@
+{
+  "expansions": {
+    "2056": [
+      {
+        "orig": "моро",
+        "search": "мороженое",
+        "freq": "36498",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "морож",
+        "search": "мороженое",
+        "freq": "36493",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "моло",
+        "search": "молоко",
+        "freq": "31475",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "карто",
+        "search": "картофель",
+        "freq": "29448",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "энер",
+        "search": "энергетический",
+        "freq": "29287",
+        "zero_freq": "16"
+      },
+      {
+        "orig": "энерг",
+        "search": "энергетический",
+        "freq": "27251",
+        "zero_freq": "18"
+      },
+      {
+        "orig": "яйц",
+        "search": "яйцо",
+        "freq": "26949",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "огур",
+        "search": "огурцы",
+        "freq": "22632",
+        "zero_freq": "25"
+      },
+      {
+        "orig": "чебу",
+        "search": "чебуреки",
+        "freq": "20365",
+        "zero_freq": "1349"
+      },
+      {
+        "orig": "сухари",
+        "search": "сухарики",
+        "freq": "20203",
+        "zero_freq": "250"
+      },
+      {
+        "orig": "круасан",
+        "search": "круассан",
+        "freq": "18603",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "творо",
+        "search": "творог",
+        "freq": "16952",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "круа",
+        "search": "круассаны",
+        "freq": "16353",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "хле",
+        "search": "хлеб",
+        "freq": "15717",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "май",
+        "search": "майонез",
+        "freq": "15243",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "поми",
+        "search": "помидоры",
+        "freq": "14938",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "адреналин",
+        "search": "adrenaline",
+        "freq": "14505",
+        "zero_freq": "9"
+      },
+      {
+        "orig": "Моро",
+        "search": "мороженое",
+        "freq": "13464",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сгущ",
+        "search": "сгущеное",
+        "freq": "12545",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "соси",
+        "search": "сосиски",
+        "freq": "12483",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "читос",
+        "search": "cheetos",
+        "freq": "11982",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "круас",
+        "search": "круассаны",
+        "freq": "11420",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "мороже",
+        "search": "мороженое",
+        "freq": "11365",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "нагетсы",
+        "search": "наггетсы",
+        "freq": "11078",
+        "zero_freq": "57"
+      },
+      {
+        "orig": "энерге",
+        "search": "энергетик",
+        "freq": "10924",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "творож",
+        "search": "творожный",
+        "freq": "10681",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "помид",
+        "search": "помидоры",
+        "freq": "10385",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "чипс",
+        "search": "чипсы",
+        "freq": "10294",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "марме",
+        "search": "мармелад",
+        "freq": "10071",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сосис",
+        "search": "сосиски",
+        "freq": "9989",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "туал",
+        "search": "туалетная",
+        "freq": "9813",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "бана",
+        "search": "банан",
+        "freq": "9676",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сгу",
+        "search": "сгущеное",
+        "freq": "9566",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "смет",
+        "search": "сметана",
+        "freq": "9432",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "огу",
+        "search": "огурец",
+        "freq": "9351",
+        "zero_freq": "14"
+      },
+      {
+        "orig": "эне",
+        "search": "энергетический",
+        "freq": "9328",
+        "zero_freq": "9"
+      },
+      {
+        "orig": "сме",
+        "search": "сметана",
+        "freq": "9132",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "картоф",
+        "search": "картошка",
+        "freq": "9058",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "масло слив",
+        "search": "масло сливочное",
+        "freq": "8806",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "огурц",
+        "search": "огурцы",
+        "freq": "8761",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "пирож",
+        "search": "пирожное",
+        "freq": "8704",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "минера",
+        "search": "мираторг",
+        "freq": "8694",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "чери",
+        "search": "черри",
+        "freq": "8577",
+        "zero_freq": "10"
+      },
+      {
+        "orig": "йог",
+        "search": "йогурт",
+        "freq": "8527",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "минер",
+        "search": "минералка",
+        "freq": "8407",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "смета",
+        "search": "сметана",
+        "freq": "8337",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "expo",
+        "search": "exponenta",
+        "freq": "8226",
+        "zero_freq": "237"
+      },
+      {
+        "orig": "майоне",
+        "search": "майонез",
+        "freq": "8143",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "мине",
+        "search": "минеральная",
+        "freq": "8105",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "масло сли",
+        "search": "масло сливочное",
+        "freq": "8062",
+        "zero_freq": "0"
+      }
+    ],
+    "2164": [
+      {
+        "orig": "сыр",
+        "search": "сыры",
+        "freq": "100",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Коф?isFromRedirect=Y",
+        "search": "кофейный isfromredirect y",
+        "freq": "83",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "lays",
+        "search": "lay's",
+        "freq": "76",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "чипсы lays",
+        "search": "чипсы lay s",
+        "freq": "52",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кофе",
+        "search": "кофе растворимый",
+        "freq": "46",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "коф?isFromRedirect=Y",
+        "search": "кофейный isfromredirect y",
+        "freq": "41",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Кинде",
+        "search": "kinder",
+        "freq": "40",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яйц",
+        "search": "яйцо",
+        "freq": "37",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "картофель",
+        "search": "картофельные",
+        "freq": "34",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "торт",
+        "search": "торта",
+        "freq": "29",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Моро?isFromRedirect=Y",
+        "search": "мороженое isfromredirect y",
+        "freq": "29",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "мясо",
+        "search": "мясом",
+        "freq": "29",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Яйц?isFromRedirect=Y",
+        "search": "яйца isfromredirect y",
+        "freq": "27",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Моло?isFromRedirect=Y",
+        "search": "молоко isfromredirect y",
+        "freq": "26",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Тор?isFromRedirect=Y",
+        "search": "торт isfromredirect y",
+        "freq": "25",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Мор?isFromRedirect=Y",
+        "search": "морковью isfromredirect y",
+        "freq": "25",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сыр",
+        "search": "сыром",
+        "freq": "24",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Хле?isFromRedirect=Y",
+        "search": "хлеб isfromredirect y",
+        "freq": "23",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рис",
+        "search": "рисовая",
+        "freq": "23",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "томат",
+        "search": "томаты",
+        "freq": "22",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Май?isFromRedirect=Y",
+        "search": "майонез isfromredirect y",
+        "freq": "20",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Печ?isFromRedirect=Y",
+        "search": "печенье isfromredirect y",
+        "freq": "19",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "моло?isFromRedirect=Y",
+        "search": "молоко isfromredirect y",
+        "freq": "17",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Энер?isFromRedirect=Y",
+        "search": "энергетический isfromredirect y",
+        "freq": "16",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "йогурт",
+        "search": "йогурты",
+        "freq": "16",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "тор?isFromRedirect=Y",
+        "search": "торт isfromredirect y",
+        "freq": "16",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "молок",
+        "search": "молоко",
+        "freq": "16",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "помидор",
+        "search": "помидоры",
+        "freq": "16",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Пив?isFromRedirect=Y",
+        "search": "пиво isfromredirect y",
+        "freq": "15",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Набор уходов",
+        "search": "набор уходовой",
+        "freq": "15",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Эне?isFromRedirect=Y",
+        "search": "энергетический isfromredirect y",
+        "freq": "15",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "напиток с а газ российское золото бел сл 0 75л",
+        "search": "напиток с а газ российское золото бел сл 0 75 л",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "твоог",
+        "search": "творог",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Морож?isFromRedirect=Y",
+        "search": "мороженое isfromredirect y",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Туа?isFromRedirect=Y",
+        "search": "туалетная isfromredirect y",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Мяс?isFromRedirect=Y",
+        "search": "мясо isfromredirect y",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кури",
+        "search": "курица",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "гель",
+        "search": "стиральный гель",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "мака",
+        "search": "макароны",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "моро?isFromRedirect=Y",
+        "search": "мороженое isfromredirect y",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Пирож?isFromRedirect=Y",
+        "search": "пирожные isfromredirect y",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кол",
+        "search": "колбаса",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кофе якобс",
+        "search": "кофе якобсмонарх",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "пив?isFromRedirect=Y",
+        "search": "пиво isfromredirect y",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сыр тильзитер",
+        "search": "сыром тильзитер",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "замороженн?isFromRedirect=Y",
+        "search": "замороженные isfromredirect y",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Сыр твор?isFromRedirect=Y",
+        "search": "сыр творогом isfromredirect y",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "творо",
+        "search": "творог",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "эне?isFromRedirect=Y",
+        "search": "энергетический isfromredirect y",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ritter с",
+        "search": "ritter спорт",
+        "freq": "10",
+        "zero_freq": "0"
+      }
+    ],
+    "5631": [
+      {
+        "orig": "ролтон",
+        "search": "роллтон",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "холс",
+        "search": "halls",
+        "freq": "10",
+        "zero_freq": "10"
+      },
+      {
+        "orig": "хохланд",
+        "search": "hochland",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "фруто",
+        "search": "фрутоняня",
+        "freq": "8",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "вискас",
+        "search": "whiskas",
+        "freq": "8",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сникерс",
+        "search": "snickers",
+        "freq": "8",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "перфект",
+        "search": "перфект фит",
+        "freq": "7",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "эвервес",
+        "search": "evervess",
+        "freq": "7",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рич",
+        "search": "rich",
+        "freq": "7",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Фреш бар",
+        "search": "fresh баранки",
+        "freq": "6",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "ХОЛС",
+        "search": "halls",
+        "freq": "6",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "круасс",
+        "search": "круассаны",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "круас",
+        "search": "круассаны",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "чаппи",
+        "search": "chappi",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "СЕНЕЖ",
+        "search": "сенежская",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "клинск",
+        "search": "клинский",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ростагро",
+        "search": "ростагроэкспорт",
+        "freq": "5",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "чоко пай",
+        "search": "choco пай",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "мармелад",
+        "search": "мармеландия",
+        "freq": "4",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "клинс",
+        "search": "клинский",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сибирская колекция",
+        "search": "сибирская коллекция",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ПИРОЖ",
+        "search": "пирожные",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сенеж",
+        "search": "сенежская",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рафаэлло",
+        "search": "raffaello",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "чупа",
+        "search": "chupa",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "пелмени",
+        "search": "пельмени",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "коломен",
+        "search": "коломенское",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "круасан",
+        "search": "круассан",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "бондюэль",
+        "search": "bonduelle",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "тоник",
+        "search": "тоника",
+        "freq": "4",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "флэш",
+        "search": "flash",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "жеват",
+        "search": "жевательная",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сельд",
+        "search": "сельдь",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "МАРМЕЛАД",
+        "search": "мармеландия",
+        "freq": "3",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "чоко",
+        "search": "choko",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Сникерс",
+        "search": "snickers",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ПЕРФЕКТ",
+        "search": "перфект фит",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "очаков",
+        "search": "очаковский",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "полотенц",
+        "search": "полотенца",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Magg",
+        "search": "maggi",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кеф хуто",
+        "search": "кефир хутор",
+        "freq": "3",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "жевачка",
+        "search": "резинка жевательная",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "шеба",
+        "search": "sheba",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Чупа",
+        "search": "chupa",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рублев",
+        "search": "рублевский",
+        "freq": "3",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "barill",
+        "search": "barilla",
+        "freq": "2",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "наполнител",
+        "search": "наполнитель",
+        "freq": "2",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "expo",
+        "search": "exponenta",
+        "freq": "2",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "доб",
+        "search": "добрый",
+        "freq": "2",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "лапш",
+        "search": "лапша",
+        "freq": "2",
+        "zero_freq": "0"
+      }
+    ],
+    "6321": [
+      {
+        "orig": "сы",
+        "search": "сыр",
+        "freq": "21028",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "молок",
+        "search": "молоко",
+        "freq": "5959",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "коф",
+        "search": "кофе",
+        "freq": "5529",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "тв",
+        "search": "творог",
+        "freq": "4787",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "мас",
+        "search": "масло",
+        "freq": "4685",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "хле",
+        "search": "хлеб",
+        "freq": "4018",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "колб",
+        "search": "колбаса",
+        "freq": "3460",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "куриц",
+        "search": "курица",
+        "freq": "3016",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "пив",
+        "search": "пиво",
+        "freq": "2865",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ко",
+        "search": "коф",
+        "freq": "2567",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сыр",
+        "search": "сыр ",
+        "freq": "2453",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ко",
+        "search": "кофе",
+        "freq": "2367",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "шокола",
+        "search": "шоколад",
+        "freq": "2316",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "со",
+        "search": "сок",
+        "freq": "2302",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "хл",
+        "search": "хле",
+        "freq": "2291",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ма",
+        "search": "мас",
+        "freq": "2288",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ча",
+        "search": "чай",
+        "freq": "2226",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яй",
+        "search": "яйц",
+        "freq": "2133",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "для",
+        "search": "для ",
+        "freq": "2026",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кофе",
+        "search": "кофе растворимый",
+        "freq": "2018",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кол",
+        "search": "колб",
+        "freq": "1994",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "масло",
+        "search": "масло сливочное",
+        "freq": "1885",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ма",
+        "search": "май",
+        "freq": "1795",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яйц",
+        "search": "яйца",
+        "freq": "1786",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "моло",
+        "search": "молок",
+        "freq": "1763",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ка",
+        "search": "кар",
+        "freq": "1753",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рыб",
+        "search": "рыба",
+        "freq": "1663",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "вод",
+        "search": "вода",
+        "freq": "1644",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яйц",
+        "search": "яйцо",
+        "freq": "1617",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "масло",
+        "search": "масло ",
+        "freq": "1610",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "дл",
+        "search": "для",
+        "freq": "1569",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "са",
+        "search": "сах",
+        "freq": "1555",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ог",
+        "search": "огу",
+        "freq": "1510",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ку",
+        "search": "кури",
+        "freq": "1485",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "майоне",
+        "search": "майонез",
+        "freq": "1442",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "картофе",
+        "search": "картофель",
+        "freq": "1428",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "л",
+        "search": "лук",
+        "freq": "1401",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "моло",
+        "search": "молоко",
+        "freq": "1384",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "м",
+        "search": "моло",
+        "freq": "1373",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ри",
+        "search": "рис",
+        "freq": "1369",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "творо",
+        "search": "творог",
+        "freq": "1341",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "т",
+        "search": "творог",
+        "freq": "1336",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "фар",
+        "search": "фарш",
+        "freq": "1328",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "к",
+        "search": "кол",
+        "freq": "1320",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "макарон",
+        "search": "макароны",
+        "freq": "1306",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "см",
+        "search": "сме",
+        "freq": "1233",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ко",
+        "search": "кол",
+        "freq": "1224",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "йогу",
+        "search": "йогурт",
+        "freq": "1223",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "масло по",
+        "search": "масло под",
+        "freq": "1216",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сыр",
+        "search": "твердые сыры",
+        "freq": "1209",
+        "zero_freq": "0"
+      }
+    ],
+    "221": [],
+    "674": [
+      {
+        "orig": "яблоки",
+        "search": "яблоков",
+        "freq": "300",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Яблоки",
+        "search": "яблоков",
+        "freq": "130",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "стейк",
+        "search": "стейки",
+        "freq": "86",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Стейк",
+        "search": "стейки",
+        "freq": "70",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "банан",
+        "search": "бананы",
+        "freq": "65",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "айсберг",
+        "search": "салат айсберга",
+        "freq": "57",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "помидор",
+        "search": "помидоры",
+        "freq": "41",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "томат",
+        "search": "томаты",
+        "freq": "40",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "frambini",
+        "search": "frambinini",
+        "freq": "38",
+        "zero_freq": "38"
+      },
+      {
+        "orig": "сухари",
+        "search": "сухарики",
+        "freq": "35",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сникерс",
+        "search": "snickers",
+        "freq": "34",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Банан",
+        "search": "бананы",
+        "freq": "30",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "нагетсы",
+        "search": "наггетсы",
+        "freq": "26",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "шеба",
+        "search": "sheba",
+        "freq": "26",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "вода святой источник",
+        "search": "сахарозаменитель milford жидкий",
+        "freq": "22",
+        "zero_freq": "22"
+      },
+      {
+        "orig": "Помидор",
+        "search": "помидоры",
+        "freq": "21",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яблоко",
+        "search": "яблоков",
+        "freq": "20",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "ваниш",
+        "search": "vanish",
+        "freq": "19",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "вискас",
+        "search": "whiskas",
+        "freq": "18",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Томат",
+        "search": "томаты",
+        "freq": "17",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Айсберг",
+        "search": "салат айсберга",
+        "freq": "15",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "минералка",
+        "search": "минеральная вода",
+        "freq": "14",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "салат айсберг",
+        "search": "салат айсберга",
+        "freq": "13",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "чай гринфилд",
+        "search": "чай greenfield",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "рафаэлло",
+        "search": "raffaello",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Яблоко",
+        "search": "яблоков",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сосиски",
+        "search": "exponenta",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Нагетсы",
+        "search": "наггетсы",
+        "freq": "12",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "незамерзайка",
+        "search": "незамерзающая",
+        "freq": "11",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "бон пари",
+        "search": "бон paris",
+        "freq": "11",
+        "zero_freq": "11"
+      },
+      {
+        "orig": "чупа чупс",
+        "search": "chupa chups",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Сухари",
+        "search": "сухарики",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "маршмелоу",
+        "search": "marshmallow",
+        "freq": "11",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "майонез махеев",
+        "search": "майонез махеевъ",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "подарочный набор чай гринфилд",
+        "search": "подарочный набор чай greenfield",
+        "freq": "10",
+        "zero_freq": "10"
+      },
+      {
+        "orig": "Шеба",
+        "search": "sheba",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "сухари панировочные",
+        "search": "сухарики панировочные",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "зева",
+        "search": "зева8рулонов",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "топинг",
+        "search": "Топпинг",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "торт у палыча",
+        "search": "торты у палыча",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "огурцы",
+        "search": "помидоры",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "пакет",
+        "search": "индейка",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Вискас",
+        "search": "whiskas",
+        "freq": "10",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "джем махеев",
+        "search": "джем махеевъ",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "киндер 50",
+        "search": "kinder 50г",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "голень куриная ашан золтая птица",
+        "search": "голень куриная ашан золотая птица",
+        "freq": "9",
+        "zero_freq": "9"
+      },
+      {
+        "orig": "швепс",
+        "search": "schweppes",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "яблоки свежие",
+        "search": "яблоков свежие",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "Ваниш",
+        "search": "vanish",
+        "freq": "9",
+        "zero_freq": "0"
+      },
+      {
+        "orig": "кофе 3 в 1",
+        "search": "кофе 3 в 11",
+        "freq": "9",
+        "zero_freq": "4"
+      }
+    ]
+  },
+  "zero_expansions": {
+    "2056": [
+      {
+        "orig": "teos",
+        "search": "густой йогурт и творожки",
+        "zero_freq": "4359"
+      },
+      {
+        "orig": "мороз",
+        "search": "морозко",
+        "zero_freq": "3792"
+      },
+      {
+        "orig": "рот",
+        "search": "ротфронт",
+        "zero_freq": "2822"
+      },
+      {
+        "orig": "теос",
+        "search": "густой йогурт и творожки",
+        "zero_freq": "2805"
+      },
+      {
+        "orig": "панировочные сухари",
+        "search": "панировочные сухарики",
+        "zero_freq": "2308"
+      },
+      {
+        "orig": "бурата",
+        "search": "буратта",
+        "zero_freq": "1586"
+      },
+      {
+        "orig": "бура",
+        "search": "буратта",
+        "zero_freq": "1471"
+      },
+      {
+        "orig": "чебу",
+        "search": "чебуреки",
+        "zero_freq": "1349"
+      },
+      {
+        "orig": "халуми",
+        "search": "халумис",
+        "zero_freq": "1278"
+      },
+      {
+        "orig": "Крупс",
+        "search": "крупской",
+        "zero_freq": "1250"
+      },
+      {
+        "orig": "пингви",
+        "search": "pinguin",
+        "zero_freq": "1194"
+      },
+      {
+        "orig": "йогурт гре",
+        "search": "йогурт гречка",
+        "zero_freq": "1123"
+      },
+      {
+        "orig": "мах",
+        "search": "махеев",
+        "zero_freq": "1031"
+      },
+      {
+        "orig": "fran",
+        "search": "frank",
+        "zero_freq": "970"
+      },
+      {
+        "orig": "рот и",
+        "search": "ротфронт и",
+        "zero_freq": "959"
+      },
+      {
+        "orig": "коу",
+        "search": "коул-слоу",
+        "zero_freq": "944"
+      },
+      {
+        "orig": "хое",
+        "search": "ходе",
+        "zero_freq": "931"
+      },
+      {
+        "orig": "сен",
+        "search": "сенежская",
+        "zero_freq": "908"
+      },
+      {
+        "orig": "тру",
+        "search": "true",
+        "zero_freq": "850"
+      },
+      {
+        "orig": "сухари панировочные",
+        "search": "сухарики панировочные",
+        "zero_freq": "846"
+      },
+      {
+        "orig": "разры",
+        "search": "разрыхлитель",
+        "zero_freq": "816"
+      },
+      {
+        "orig": "тар тар",
+        "search": "тархун тар",
+        "zero_freq": "785"
+      },
+      {
+        "orig": "кваш",
+        "search": "квашеная",
+        "zero_freq": "768"
+      },
+      {
+        "orig": "разрых",
+        "search": "разрыхлитель",
+        "zero_freq": "727"
+      },
+      {
+        "orig": "купи",
+        "search": "купино",
+        "zero_freq": "725"
+      },
+      {
+        "orig": "сухар",
+        "search": "сухари",
+        "zero_freq": "692"
+      },
+      {
+        "orig": "ролто",
+        "search": "ролтон",
+        "zero_freq": "687"
+      },
+      {
+        "orig": "рот фронт",
+        "search": "ротфронт фронт",
+        "zero_freq": "681"
+      },
+      {
+        "orig": "крем чиз",
+        "search": "крем чизкейк",
+        "zero_freq": "677"
+      },
+      {
+        "orig": "кирие",
+        "search": "кириешки",
+        "zero_freq": "660"
+      },
+      {
+        "orig": "Ава кадр",
+        "search": "авокадо кадр",
+        "zero_freq": "658"
+      },
+      {
+        "orig": "malt",
+        "search": "maltagliati",
+        "zero_freq": "654"
+      },
+      {
+        "orig": "колбоса",
+        "search": "колбасные",
+        "zero_freq": "637"
+      },
+      {
+        "orig": "сыр коси",
+        "search": "сыр кости",
+        "zero_freq": "618"
+      },
+      {
+        "orig": "мира торг",
+        "search": "мираторг торг",
+        "zero_freq": "604"
+      },
+      {
+        "orig": "сыр творо",
+        "search": "сыр творог",
+        "zero_freq": "603"
+      },
+      {
+        "orig": "Питер",
+        "search": "питерски",
+        "zero_freq": "595"
+      },
+      {
+        "orig": "buld",
+        "search": "build",
+        "zero_freq": "584"
+      },
+      {
+        "orig": "чабата",
+        "search": "чабатта",
+        "zero_freq": "543"
+      },
+      {
+        "orig": "сухари панировочные ",
+        "search": "сухарики панировочные",
+        "zero_freq": "530"
+      },
+      {
+        "orig": "панировочные сухари ",
+        "search": "панировочные сухарики",
+        "zero_freq": "517"
+      },
+      {
+        "orig": "есентуки",
+        "search": "ессентуки",
+        "zero_freq": "508"
+      },
+      {
+        "orig": "чиаб",
+        "search": "чиабатта",
+        "zero_freq": "507"
+      },
+      {
+        "orig": "сига",
+        "search": "сигареты",
+        "zero_freq": "492"
+      },
+      {
+        "orig": "teos ",
+        "search": "густой йогурт и творожки",
+        "zero_freq": "464"
+      },
+      {
+        "orig": "кругетсы",
+        "search": "круггетсы",
+        "zero_freq": "449"
+      },
+      {
+        "orig": "сочни",
+        "search": "сочник",
+        "zero_freq": "446"
+      },
+      {
+        "orig": "сухари пани",
+        "search": "сухарики пони",
+        "zero_freq": "443"
+      },
+      {
+        "orig": "бальзами",
+        "search": "бальзамический",
+        "zero_freq": "437"
+      },
+      {
+        "orig": "кириеш",
+        "search": "кириешки",
+        "zero_freq": "434"
+      }
+    ],
+    "2164": [],
+    "5631": [
+      {
+        "orig": "холс",
+        "search": "halls",
+        "zero_freq": "10"
+      },
+      {
+        "orig": "Фреш бар",
+        "search": "fresh баранки",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "ХОЛС",
+        "search": "halls",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "мармелад",
+        "search": "мармеландия",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "МАРМЕЛАД",
+        "search": "мармеландия",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "кеф хуто",
+        "search": "кефир хутор",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "hal",
+        "search": "halls",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "ПЕРВЫМ ДЕЛОМ ВОДА ПИТ. 0.5Л Б/Г",
+        "search": "первым делом вода питание 0 5л б г",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "джин тоник",
+        "search": "джин тоника",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "гараж грейфрукт",
+        "search": "garage грейпфрукт",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "желе аппети",
+        "search": "желе аппетитная",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "Печенье овсяное для детей раннего возр. 50н Фруто Няня",
+        "search": "печенье овсяное для детей раннего возр 50н фрутоняня няня",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "фасоль",
+        "search": "фасулье",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "конф коровка александровск",
+        "search": "конфеты коровка александровский",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "фреш бар",
+        "search": "fresh баранки",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "мармелад 100",
+        "search": "мармеландия 100",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "ФАСОЛЬ",
+        "search": "фасулье",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "литл энерджи",
+        "search": "little energy",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "OP*N*GO СЕМЕЧКИ СОЛЕНЫЕ ОЧИЩ. 70Г СТАКАН1",
+        "search": "op n go семечки соленые очищает 70г стакан1",
+        "zero_freq": "2"
+      },
+      {
+        "orig": "СОЛО КАРМЕН ТОРТ СНИКЕРС 650Г",
+        "search": "соломка кармен торт snickers 650г",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Сенежс аяя",
+        "search": "сенежская ая",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Акбар вербена мелиса",
+        "search": "akbar вербена melissa",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Аперитив Stan",
+        "search": "aperitive стан",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "село зелен",
+        "search": "село зеленью",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "мармелад жевательный",
+        "search": "мармеландия жевательный",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Хлеб амер",
+        "search": "хлеб americano",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Рубленые сарделки",
+        "search": "рубленые сардельки",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "КУРИЦА В СЛИВ ЧЕСН",
+        "search": "курица в слив чесноком",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "гор шту",
+        "search": "гор штучка",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "7 ТАЙН ВКУСА ДЕСЕРТ В ВАФ. РОЖКЕ 60Г",
+        "search": "7 тайн вкуса десерт в вафли рожке 60г",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "сендвич слоен",
+        "search": "sandwich слоен",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "asian dreams",
+        "search": "asian dreamies",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ДРАЙВ НАПИТОК ЭНЕРГ. ГАЗ В АСС 0,449Л ЖБ",
+        "search": "drive напиток энергетический газ в асс 0 449л ж б",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ДОБ НАП",
+        "search": "добрый нап",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "фрэш ба",
+        "search": "fresh ба",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ФРУТОН ПЕЧЕН",
+        "search": "фрутоняня печен",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ДОБ НАП3",
+        "search": "добрый нап3",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "Первым делом лимонад",
+        "search": "первым делом лимонады",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ДЯДЯ ВАН",
+        "search": "дядя ванилин",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "говядина туш",
+        "search": "говядина тушка",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ткемал",
+        "search": "ткемали",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "ПЕРВЫМ ДЕЛОМ ВОДА ПИТ. 5Л",
+        "search": "первым делом вода питание 5л",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "киндер мол",
+        "search": "kinder молоко",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "мармелад чупа чупс",
+        "search": "мармеландия chupa chups",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "мега чипс",
+        "search": "мега чипсы",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "мармелад 300 г",
+        "search": "мармеландия 300 г",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "шлиц",
+        "search": "schlitz",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "йогурт акти",
+        "search": "йогурт активиа йогурт",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "евервес тоник",
+        "search": "evervess тоника",
+        "zero_freq": "1"
+      },
+      {
+        "orig": "МАКФА РАКУШК",
+        "search": "makfa ракушки",
+        "zero_freq": "1"
+      }
+    ],
+    "6321": [
+      {
+        "orig": "масло ",
+        "search": "масло с",
+        "zero_freq": "440"
+      },
+      {
+        "orig": "масло с",
+        "search": "масло сл",
+        "zero_freq": "372"
+      },
+      {
+        "orig": "си",
+        "search": "сиг",
+        "zero_freq": "329"
+      },
+      {
+        "orig": "сиг",
+        "search": "сига",
+        "zero_freq": "284"
+      },
+      {
+        "orig": "сигарет",
+        "search": "сигареты",
+        "zero_freq": "233"
+      },
+      {
+        "orig": "сигар",
+        "search": "сигаре",
+        "zero_freq": "196"
+      },
+      {
+        "orig": "гель ",
+        "search": "гель дл",
+        "zero_freq": "185"
+      },
+      {
+        "orig": "сигаре",
+        "search": "сигарет",
+        "zero_freq": "169"
+      },
+      {
+        "orig": "печень курина",
+        "search": "печень куриная",
+        "zero_freq": "163"
+      },
+      {
+        "orig": "сига",
+        "search": "сигар",
+        "zero_freq": "162"
+      },
+      {
+        "orig": "то",
+        "search": "тот",
+        "zero_freq": "143"
+      },
+      {
+        "orig": "гель для",
+        "search": "гель для ",
+        "zero_freq": "141"
+      },
+      {
+        "orig": "са",
+        "search": "сас",
+        "zero_freq": "137"
+      },
+      {
+        "orig": "ог",
+        "search": "огк",
+        "zero_freq": "136"
+      },
+      {
+        "orig": "савоярд",
+        "search": "савоярди",
+        "zero_freq": "136"
+      },
+      {
+        "orig": "гель дл",
+        "search": "гель для",
+        "zero_freq": "132"
+      },
+      {
+        "orig": "альм",
+        "search": "альме",
+        "zero_freq": "117"
+      },
+      {
+        "orig": "картофель ф",
+        "search": "картофель фри",
+        "zero_freq": "117"
+      },
+      {
+        "orig": "гель дл",
+        "search": "гель для ",
+        "zero_freq": "115"
+      },
+      {
+        "orig": "рульк",
+        "search": "рулька",
+        "zero_freq": "113"
+      },
+      {
+        "orig": "саво",
+        "search": "савоя",
+        "zero_freq": "110"
+      },
+      {
+        "orig": "дос",
+        "search": "дост",
+        "zero_freq": "109"
+      },
+      {
+        "orig": "шм",
+        "search": "шмп",
+        "zero_freq": "108"
+      },
+      {
+        "orig": "яц",
+        "search": "яцц",
+        "zero_freq": "105"
+      },
+      {
+        "orig": "гранат",
+        "search": "гранатовый весовой",
+        "zero_freq": "104"
+      },
+      {
+        "orig": "савоя",
+        "search": "савояр",
+        "zero_freq": "102"
+      },
+      {
+        "orig": "ще",
+        "search": "щеб",
+        "zero_freq": "100"
+      },
+      {
+        "orig": "сн",
+        "search": "сну",
+        "zero_freq": "98"
+      },
+      {
+        "orig": "сав",
+        "search": "саво",
+        "zero_freq": "95"
+      },
+      {
+        "orig": "гр",
+        "search": "грн",
+        "zero_freq": "88"
+      },
+      {
+        "orig": "гель для ",
+        "search": "гель для с",
+        "zero_freq": "88"
+      },
+      {
+        "orig": "печень ку",
+        "search": "печень куриная",
+        "zero_freq": "88"
+      },
+      {
+        "orig": "твор",
+        "search": "творж",
+        "zero_freq": "87"
+      },
+      {
+        "orig": "творожный сы",
+        "search": "творожный сыр",
+        "zero_freq": "86"
+      },
+      {
+        "orig": "масло",
+        "search": "масло с",
+        "zero_freq": "85"
+      },
+      {
+        "orig": "си",
+        "search": "сик",
+        "zero_freq": "84"
+      },
+      {
+        "orig": "масло под",
+        "search": "масло растительное подарочный",
+        "zero_freq": "84"
+      },
+      {
+        "orig": "раф",
+        "search": "рафа",
+        "zero_freq": "82"
+      },
+      {
+        "orig": "мл",
+        "search": "млр",
+        "zero_freq": "81"
+      },
+      {
+        "orig": "печень ку",
+        "search": "печень кур",
+        "zero_freq": "81"
+      },
+      {
+        "orig": "масло с",
+        "search": "масло сливочное сырокопченый",
+        "zero_freq": "80"
+      },
+      {
+        "orig": "доставк",
+        "search": "доставка",
+        "zero_freq": "80"
+      },
+      {
+        "orig": "фэ",
+        "search": "фэй",
+        "zero_freq": "78"
+      },
+      {
+        "orig": "сыр т",
+        "search": "сыр тв",
+        "zero_freq": "76"
+      },
+      {
+        "orig": "иас",
+        "search": "иасл",
+        "zero_freq": "74"
+      },
+      {
+        "orig": "ог",
+        "search": "огц",
+        "zero_freq": "74"
+      },
+      {
+        "orig": "сп",
+        "search": "спх",
+        "zero_freq": "73"
+      },
+      {
+        "orig": "аль",
+        "search": "альм",
+        "zero_freq": "72"
+      },
+      {
+        "orig": "сыр творожн",
+        "search": "сыр творожный",
+        "zero_freq": "70"
+      },
+      {
+        "orig": "куриная печен",
+        "search": "куриная печень",
+        "zero_freq": "69"
+      }
+    ],
+    "221": [],
+    "674": [
+      {
+        "orig": "frambini",
+        "search": "frambinini",
+        "zero_freq": "38"
+      },
+      {
+        "orig": "вода святой источник",
+        "search": "сахарозаменитель milford жидкий",
+        "zero_freq": "22"
+      },
+      {
+        "orig": "бон пари",
+        "search": "бон paris",
+        "zero_freq": "11"
+      },
+      {
+        "orig": "подарочный набор чай гринфилд",
+        "search": "подарочный набор чай greenfield",
+        "zero_freq": "10"
+      },
+      {
+        "orig": "голень куриная ашан золтая птица",
+        "search": "голень куриная ашан золотая птица",
+        "zero_freq": "9"
+      },
+      {
+        "orig": "бусы на елку",
+        "search": "бусы елочное украшение",
+        "zero_freq": "8"
+      },
+      {
+        "orig": "яблоки целеста",
+        "search": "яблоков celesta",
+        "zero_freq": "7"
+      },
+      {
+        "orig": "колбаса сырокопченая нарезка150 грамм",
+        "search": "колбаса сырокопченая нарезка 150 грамм",
+        "zero_freq": "7"
+      },
+      {
+        "orig": "водка белуга 6 л",
+        "search": "водка белитровуга 6 л",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "Кукуруза",
+        "search": "кукуруза млрлженая",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "звезда на елку",
+        "search": "звезда елочное украшение",
+        "zero_freq": "6"
+      },
+      {
+        "orig": "Пельмени",
+        "search": "наггетсы куриныепельмени",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "master gurme",
+        "search": "master gourmet",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "циокининовая паса для цвеов",
+        "search": "циокининовая паса для цветов",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "колбаса с плесенью",
+        "search": "колбаса сырокопченая с плесенью",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "similac gold 1",
+        "search": "similac gold 1200",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "Кофе 3 в 1",
+        "search": "кофе 3 в 11",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "Туалетная бумага",
+        "search": "томатный концентрат",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "Frambini",
+        "search": "frambinini",
+        "zero_freq": "5"
+      },
+      {
+        "orig": "Proplan",
+        "search": "pro plan",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "бура",
+        "search": "буратто",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "Киндер набор",
+        "search": "киндеров набор",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "конфеты в коробке новосибирс",
+        "search": "конфеты в коробке новосибирской",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "spc напольное покрыие",
+        "search": "spc напольное покрытие",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "бонпари",
+        "search": "бон paris",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "конфеты помадка в корбке",
+        "search": "конфеты помадка в коробке",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "для садовых инс",
+        "search": "для садовых ин с",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "матрас топер 120х200",
+        "search": "матрас топпер 120х200",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "наконечник на елку",
+        "search": "наконечник елочное украшение",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "колбаски варено копченые",
+        "search": "колбаски вареная копченые",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "жир курдючий",
+        "search": "жир курдючный",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "кофе 3 в 1",
+        "search": "кофе 3 в 11",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "гирлянда 100 метро уличная 100метров",
+        "search": "гирлянда 100 метро уличная 100 метров",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "распродажа",
+        "search": "распродажа599",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "трусы женкие 66 размера",
+        "search": "6трусы женкие 66 размера",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "вискас 1.9 кг",
+        "search": "whiskas 1 9 кг",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "Салфетки для стола",
+        "search": "ши елочное украшение",
+        "zero_freq": "4"
+      },
+      {
+        "orig": "краска для волос provocator or",
+        "search": "краска для волос provocateur or",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "водка немиров",
+        "search": "водка nemiroff",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "амои",
+        "search": "аморои",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "Халат детски",
+        "search": "халат детский",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "ручки стир",
+        "search": "ручки стиральный",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "гном ново",
+        "search": "гном новогодний",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "сало с можевельником",
+        "search": "сало с можжевельником",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "сковородка антипригарная 2сковорода с крышкой4",
+        "search": "сковородка антипригарная 2сковорода с крышкой 4",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "йогурты",
+        "search": "теплое кофе",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "наматрасник 180",
+        "search": "наматрасник 180х200",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "Ollin",
+        "search": "olline",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "корден блю",
+        "search": "корден blue",
+        "zero_freq": "3"
+      },
+      {
+        "orig": "тонометр",
+        "search": "тонометра",
+        "zero_freq": "3"
+      }
+    ]
+  }
+}

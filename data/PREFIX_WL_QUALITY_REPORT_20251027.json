@@ -1,0 +1,668 @@
+{
+  "2056": {
+    "total": 10187,
+    "query_equals_correction": 4,
+    "query_subset_of_correction": 3009,
+    "correction_longer_5x": 1,
+    "latin_query_cyr_corr": 1219,
+    "cyr_query_latin_corr": 342,
+    "multiword_correction": 895,
+    "flag_examples": [
+      [
+        "рондо",
+        "rondo",
+        "latin_in_corr"
+      ],
+      [
+        "м м демс",
+        "m&m's",
+        "latin_in_corr"
+      ],
+      [
+        "ай фона",
+        "iphone",
+        "latin_in_corr"
+      ],
+      [
+        "grekos",
+        "греческий йогурт",
+        "cyril_added"
+      ],
+      [
+        "aktivia",
+        "активиа",
+        "cyril_added"
+      ],
+      [
+        "rfmfxrb",
+        "кабачки",
+        "cyril_added"
+      ],
+      [
+        "polenghi",
+        "макароны детские",
+        "cyril_added"
+      ],
+      [
+        "yankee candle",
+        "ароматическая свеча",
+        "cyril_added"
+      ],
+      [
+        "ацидобифилин",
+        "ацидобифилин",
+        "equal"
+      ],
+      [
+        "ayran",
+        "айран",
+        "cyril_added"
+      ],
+      [
+        "neft",
+        "нефть",
+        "cyril_added"
+      ],
+      [
+        "barbaris",
+        "барбарис",
+        "cyril_added"
+      ],
+      [
+        "moskovskaya",
+        "московская",
+        "cyril_added"
+      ],
+      [
+        "santi",
+        "санте",
+        "cyril_added"
+      ],
+      [
+        "kapuchino",
+        "капучино",
+        "cyril_added"
+      ],
+      [
+        "адрик",
+        "adrenaline rush",
+        "latin_in_corr"
+      ],
+      [
+        "kislomolochniy",
+        "кисломолочный",
+        "cyril_added"
+      ],
+      [
+        "kislo",
+        "кисло",
+        "cyril_added"
+      ],
+      [
+        "андреналинраш",
+        "adrenaline rush",
+        "latin_in_corr"
+      ],
+      [
+        "адраш",
+        "adrenaline rush",
+        "latin_in_corr"
+      ]
+    ]
+  },
+  "2164": {
+    "total": 12636,
+    "query_equals_correction": 0,
+    "query_subset_of_correction": 3531,
+    "correction_longer_5x": 2,
+    "latin_query_cyr_corr": 319,
+    "cyr_query_latin_corr": 2440,
+    "multiword_correction": 69,
+    "flag_examples": [
+      [
+        "ekzo",
+        "экzo",
+        "cyril_added"
+      ],
+      [
+        "тесс",
+        "tess",
+        "latin_in_corr"
+      ],
+      [
+        "рондо",
+        "rondo",
+        "latin_in_corr"
+      ],
+      [
+        "м м демс",
+        "m&m's",
+        "latin_in_corr"
+      ],
+      [
+        "валио",
+        "valio",
+        "latin_in_corr"
+      ],
+      [
+        "пармалат",
+        "parmalat",
+        "latin_in_corr"
+      ],
+      [
+        "магги",
+        "maggi",
+        "latin_in_corr"
+      ],
+      [
+        "smirnoff",
+        "водка",
+        "cyril_added"
+      ],
+      [
+        "grekos",
+        "греческий йогурт",
+        "cyril_added"
+      ],
+      [
+        "yogurt",
+        "йогурт",
+        "cyril_added"
+      ],
+      [
+        "aktivia",
+        "активиа",
+        "cyril_added"
+      ],
+      [
+        "vodka",
+        "водка",
+        "cyril_added"
+      ],
+      [
+        "rfmfxrb",
+        "кабачки",
+        "cyril_added"
+      ],
+      [
+        "велле",
+        "velle",
+        "latin_in_corr"
+      ],
+      [
+        "yankee candle",
+        "ароматическая свеча",
+        "cyril_added"
+      ],
+      [
+        "лейс",
+        "lay's",
+        "latin_in_corr"
+      ],
+      [
+        "кофе нескафе",
+        "кофе nescafe",
+        "latin_in_corr"
+      ],
+      [
+        "barbaris",
+        "барбарис",
+        "cyril_added"
+      ],
+      [
+        "moskovskaya",
+        "московская",
+        "cyril_added"
+      ],
+      [
+        "kapuchino",
+        "капучино",
+        "cyril_added"
+      ]
+    ]
+  },
+  "5631": {
+    "total": 15771,
+    "query_equals_correction": 1,
+    "query_subset_of_correction": 3909,
+    "correction_longer_5x": 2,
+    "latin_query_cyr_corr": 644,
+    "cyr_query_latin_corr": 3556,
+    "multiword_correction": 343,
+    "flag_examples": [
+      [
+        "ekzo",
+        "экzo",
+        "cyril_added"
+      ],
+      [
+        "тесс",
+        "tess",
+        "latin_in_corr"
+      ],
+      [
+        "рондо",
+        "rondo",
+        "latin_in_corr"
+      ],
+      [
+        "м м демс",
+        "m&m's",
+        "latin_in_corr"
+      ],
+      [
+        "хаме",
+        "hame",
+        "latin_in_corr"
+      ],
+      [
+        "алпро",
+        "alpro",
+        "latin_in_corr"
+      ],
+      [
+        "валио",
+        "valio",
+        "latin_in_corr"
+      ],
+      [
+        "пармалат",
+        "parmalat",
+        "latin_in_corr"
+      ],
+      [
+        "магги",
+        "maggi",
+        "latin_in_corr"
+      ],
+      [
+        "smirnoff",
+        "водка",
+        "cyril_added"
+      ],
+      [
+        "grekos",
+        "греческий йогурт",
+        "cyril_added"
+      ],
+      [
+        "yogurt",
+        "йогурт",
+        "cyril_added"
+      ],
+      [
+        "aktivia",
+        "активиа",
+        "cyril_added"
+      ],
+      [
+        "vodka",
+        "водка",
+        "cyril_added"
+      ],
+      [
+        "rfmfxrb",
+        "кабачки",
+        "cyril_added"
+      ],
+      [
+        "велле",
+        "velle",
+        "latin_in_corr"
+      ],
+      [
+        "polenghi",
+        "макароны детские",
+        "cyril_added"
+      ],
+      [
+        "yankee candle",
+        "ароматическая свеча",
+        "cyril_added"
+      ],
+      [
+        "лейс",
+        "lay's",
+        "latin_in_corr"
+      ],
+      [
+        "кофе нескафе",
+        "кофе nescafe",
+        "latin_in_corr"
+      ]
+    ]
+  },
+  "6321": {
+    "total": 20777,
+    "query_equals_correction": 0,
+    "query_subset_of_correction": 11656,
+    "correction_longer_5x": 14,
+    "latin_query_cyr_corr": 318,
+    "cyr_query_latin_corr": 2256,
+    "multiword_correction": 4825,
+    "flag_examples": [
+      [
+        "ekzo",
+        "экzo",
+        "cyril_added"
+      ],
+      [
+        "тесс",
+        "tess",
+        "latin_in_corr"
+      ],
+      [
+        "рондо",
+        "rondo",
+        "latin_in_corr"
+      ],
+      [
+        "м м демс",
+        "m&m's",
+        "latin_in_corr"
+      ],
+      [
+        "хаме",
+        "hame",
+        "latin_in_corr"
+      ],
+      [
+        "валио",
+        "valio",
+        "latin_in_corr"
+      ],
+      [
+        "пармалат",
+        "parmalat",
+        "latin_in_corr"
+      ],
+      [
+        "кофе нескафе",
+        "кофе nescafe",
+        "latin_in_corr"
+      ],
+      [
+        "гринфилд",
+        "greenfield",
+        "latin_in_corr"
+      ],
+      [
+        "моет",
+        "moet",
+        "latin_in_corr"
+      ],
+      [
+        "domik v derevne",
+        "домик в деревне",
+        "cyril_added"
+      ],
+      [
+        "agusha",
+        "агуша",
+        "cyril_added"
+      ],
+      [
+        "ryazhenka",
+        "ряженка",
+        "cyril_added"
+      ],
+      [
+        "kasha",
+        "каша",
+        "cyril_added"
+      ],
+      [
+        "джей севен",
+        "j7",
+        "added_digits,latin_in_corr"
+      ],
+      [
+        "джейсевен",
+        "j7",
+        "added_digits,latin_in_corr"
+      ],
+      [
+        "джей 7",
+        "j7",
+        "latin_in_corr"
+      ],
+      [
+        "j seven",
+        "j7",
+        "added_digits"
+      ],
+      [
+        "jseven",
+        "j7",
+        "added_digits"
+      ],
+      [
+        "дж 7",
+        "j7",
+        "latin_in_corr"
+      ]
+    ]
+  },
+  "221": {
+    "total": 7094,
+    "query_equals_correction": 0,
+    "query_subset_of_correction": 2041,
+    "correction_longer_5x": 1,
+    "latin_query_cyr_corr": 455,
+    "cyr_query_latin_corr": 533,
+    "multiword_correction": 384,
+    "flag_examples": [
+      [
+        "ekzo",
+        "экzo",
+        "cyril_added"
+      ],
+      [
+        "gbhj;tyjt",
+        "пирожное",
+        "cyril_added"
+      ],
+      [
+        "bp",
+        "из",
+        "cyril_added"
+      ],
+      [
+        "яли",
+        "yali",
+        "latin_in_corr"
+      ],
+      [
+        "волко молко",
+        "volkomolko",
+        "latin_in_corr"
+      ],
+      [
+        "волкомолко",
+        "volkomolko",
+        "latin_in_corr"
+      ],
+      [
+        "просекко виктор",
+        "prosecco victor",
+        "latin_in_corr"
+      ],
+      [
+        "тесс",
+        "tess",
+        "latin_in_corr"
+      ],
+      [
+        "театон",
+        "teatone",
+        "latin_in_corr"
+      ],
+      [
+        "солгар",
+        "solgar",
+        "latin_in_corr"
+      ],
+      [
+        "сарма",
+        "sarma",
+        "latin_in_corr"
+      ],
+      [
+        "санпеллегрино",
+        "sanpellegrino",
+        "latin_in_corr"
+      ],
+      [
+        "сага",
+        "saga",
+        "latin_in_corr"
+      ],
+      [
+        "рондо",
+        "rondo",
+        "latin_in_corr"
+      ],
+      [
+        "рислинг густав",
+        "riesling gustave",
+        "latin_in_corr"
+      ],
+      [
+        "рич",
+        "rich",
+        "latin_in_corr"
+      ],
+      [
+        "ринарди",
+        "renardi",
+        "latin_in_corr"
+      ],
+      [
+        "редс",
+        "redd's",
+        "latin_in_corr"
+      ],
+      [
+        "перно",
+        "pernod",
+        "latin_in_corr"
+      ],
+      [
+        "окта",
+        "octa",
+        "latin_in_corr"
+      ]
+    ]
+  },
+  "674": {
+    "total": 13542,
+    "query_equals_correction": 4,
+    "query_subset_of_correction": 1033,
+    "correction_longer_5x": 1,
+    "latin_query_cyr_corr": 1140,
+    "cyr_query_latin_corr": 809,
+    "multiword_correction": 613,
+    "flag_examples": [
+      [
+        "рафаээло",
+        "raffaello",
+        "latin_in_corr"
+      ],
+      [
+        "крышки седенья для унитаза",
+        "крышки сиденья для унитаза",
+        "long_phrase"
+      ],
+      [
+        "сейв софт",
+        "save&soft",
+        "latin_in_corr"
+      ],
+      [
+        "сейв энд софт",
+        "save&soft",
+        "latin_in_corr"
+      ],
+      [
+        "сейф софт",
+        "save&soft",
+        "latin_in_corr"
+      ],
+      [
+        "cbyfn",
+        "сенат",
+        "cyril_added"
+      ],
+      [
+        "buheirf",
+        "игрушки",
+        "cyril_added"
+      ],
+      [
+        "utkm",
+        "гель",
+        "cyril_added"
+      ],
+      [
+        "iyeh",
+        "шнур",
+        "cyril_added"
+      ],
+      [
+        "xfqybr",
+        "чайник",
+        "cyril_added"
+      ],
+      [
+        "pthrfkj",
+        "зеркало",
+        "cyril_added"
+      ],
+      [
+        "adapter",
+        "адаптер",
+        "cyril_added"
+      ],
+      [
+        "yjcrb",
+        "носки",
+        "cyril_added"
+      ],
+      [
+        "hfcrhfcrb",
+        "раскраска",
+        "cyril_added"
+      ],
+      [
+        "gjcels",
+        "посуда",
+        "cyril_added"
+      ],
+      [
+        "xfqyfz",
+        "чайная",
+        "cyril_added"
+      ],
+      [
+        "irfnekrf",
+        "шкатулка",
+        "cyril_added"
+      ],
+      [
+        "lbcr",
+        "диск",
+        "cyril_added"
+      ],
+      [
+        "ldthyst",
+        "дверная",
+        "cyril_added"
+      ],
+      [
+        "nhecs",
+        "трусы",
+        "cyril_added"
+      ]
+    ]
+  }
+}

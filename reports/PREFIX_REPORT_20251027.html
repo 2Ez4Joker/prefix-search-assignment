@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Prefix Search Investigation – 27 Oct 2025</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f172a;
+    --panel: #1e293b;
+    --accent: #38bdf8;
+    --text: #e2e8f0;
+    --muted: #94a3b8;
+    --danger: #f87171;
+    --success: #34d399;
+  }
+  body {
+    margin: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.6;
+  }
+  header {
+    padding: 48px 7vw 32px; background: linear-gradient(135deg, #0ea5e9aa, #6366f144);
+    box-shadow: 0 12px 40px rgba(15, 23, 42, 0.55);
+  }
+  h1 { margin: 0; font-size: 2.8rem; letter-spacing: 0.04em; }
+  h2 { color: var(--accent); margin-top: 2.5rem; }
+  .subtitle { color: var(--muted); font-size: 1.1rem; margin-top: 8px; }
+main { padding: 36px 8vw 60px; }
+.panel {
+    background: var(--panel); border-radius: 18px; padding: 28px 32px;
+    margin-bottom: 32px; box-shadow: 0 18px 55px rgba(15, 23, 42, 0.5);
+  }
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  th, td { padding: 14px 16px; text-align: left; }
+  th { background: rgba(148, 163, 184, 0.08); text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.78rem; }
+  tr:nth-child(even) td { background: rgba(30, 41, 59, 0.84); }
+  tr:nth-child(odd) td { background: rgba(17, 24, 39, 0.78); }
+  .tag { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px; border-radius: 999px; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; }
+  .tag-risk { background: rgba(248,113,113,0.18); color: var(--danger); }
+  .tag-watch { background: rgba(236, 72, 153, 0.18); color: #f472b6; }
+  .tag-ok { background: rgba(52,211,153,0.18); color: var(--success); }
+  .grid { display: grid; gap: 32px; }
+  @media (min-width: 1024px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { padding: 10px 12px; margin-bottom: 6px; background: rgba(148,163,184,0.08); border-radius: 12px; }
+  .timeline { border-left: 2px solid rgba(56,189,248,0.4); margin: 24px 0; padding-left: 24px; }
+  .timeline-item { position: relative; padding-left: 12px; margin-bottom: 20px; }
+  .timeline-item::before {
+    content: ""; position: absolute; left: -32px; top: 6px;
+    width: 12px; height: 12px; background: var(--accent); border-radius: 999px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  canvas { max-width: 100%; margin-top: 24px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Prefix Search Investigation</h1>
+  <div class="subtitle">Status Report · 27 Oct 2025</div>
+</header>
+<main>
+  <section class="panel">
+    <h2>Executive Snapshot</h2>
+    <ul>
+      <li>⬤ Short queries remain dominant on <strong>Samokat</strong> (20%) and <strong>Dixy App</strong> (29%), generating disproportionately high zero-result volumes.</li>
+      <li>⬤ Whitelist &amp; spellchecker overreach confirmed via debug diffs—top offenders documented.</li>
+      <li>⬤ Remediation plan drafted with owners and milestone dates; automation scripts in place.</li>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2>Prefix Traffic &amp; Zero-Result Metrics</h2>
+    <canvas id="trafficChart" height="240"></canvas>
+    <table>
+      <thead>
+        <tr>
+          <th>Site</th>
+          <th>Total Queries</th>
+          <th>Short Queries</th>
+          <th>Short Share</th>
+          <th>Short Zero%</th>
+          <th>Overall Zero%</th>
+          <th>Signal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Samokat (2056)</td>
+          <td>30,659,989</td>
+          <td>6,140,320</td>
+          <td>20.0%</td>
+          <td>5.3%</td>
+          <td>9.5%</td>
+          <td><span class="tag tag-watch">Monitor</span></td>
+        </tr>
+        <tr>
+          <td>Dixy Web (2164)</td>
+          <td>130,879</td>
+          <td>24,896</td>
+          <td>19.0%</td>
+          <td>0.0%</td>
+          <td>0.0%</td>
+          <td><span class="tag tag-ok">Stable</span></td>
+        </tr>
+        <tr>
+          <td>Dixy B2B (5631)</td>
+          <td>7,803</td>
+          <td>983</td>
+          <td>12.6%</td>
+          <td>3.3%</td>
+          <td>10.6%</td>
+          <td><span class="tag tag-watch">Monitor</span></td>
+        </tr>
+        <tr>
+          <td>Dixy App (6321)</td>
+          <td>2,348,403</td>
+          <td>676,549</td>
+          <td>28.8%</td>
+          <td>5.8%</td>
+          <td>10.5%</td>
+          <td><span class="tag tag-risk">High Risk</span></td>
+        </tr>
+        <tr>
+          <td>Azbuka Vkusa (221)</td>
+          <td>39,332</td>
+          <td>6,638</td>
+          <td>16.9%</td>
+          <td>0.0%</td>
+          <td>0.0%</td>
+          <td><span class="tag tag-ok">Stable</span></td>
+        </tr>
+        <tr>
+          <td>Auchan (674)</td>
+          <td>1,177,566</td>
+          <td>76,240</td>
+          <td>6.5%</td>
+          <td>0.6%</td>
+          <td>4.5%</td>
+          <td><span class="tag tag-watch">Monitor</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="grid">
+    <article class="panel">
+      <h2>Deliverables (Completed)</h2>
+      <ul>
+        <li><strong>Traffic Audit:</strong> `PREFIX_SHORT_STATS_20251027.json` summarizes prefix share &amp; zero impact.</li>
+        <li><strong>Whitelist Review:</strong> flagged corrections stored in `PREFIX_WL_FLAGGED_TOP_20251027.csv`.</li>
+        <li><strong>Spellchecker Notes:</strong> deep dive in `SPELLCHECKER_AUTOFILL_ANALYSIS.md`.</li>
+        <li><strong>Remediation Roadmap:</strong> `PREFIX_SEARCH_REMEDIATION_PLAN.md` with owners &amp; milestones.</li>
+        <li><strong>API Diff Tool:</strong> `run_prefix_debug_diff.py` + `PREFIX_DEBUG_DIFF_REPORT.csv` auto-compare corrections.</li>
+      </ul>
+    </article>
+
+    <article class="panel">
+      <h2>Outstanding Risks</h2>
+      <ul>
+        <li>Whitelist entries still override prefixes (e.g. `teos → густой йогурт`).</li>
+        <li>AutoFiller trained on noisy logs can bias completions for Dixy App.</li>
+        <li>Classification &amp; boosting lose signal on short tokens—needs fallback logic.</li>
+        <li>Prefix guard (`usePrefixes`) not enabled in SORT yet; over-corrections persist.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section class="panel">
+    <h2>Whitelist Risk Profile</h2>
+    <canvas id="whitelistChart" height="260"></canvas>
+  </section>
+
+  <section class="panel">
+    <h2>Next Steps</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <strong>Whitelist Cleanup</strong> – Approve removals &amp; blacklist entries (Search Ops) · <em>due Nov 5</em>
+      </div>
+      <div class="timeline-item">
+        <strong>Platform Fixes</strong> – Enable `usePrefixes=true`, add correction guard rails (Platform) · <em>due Nov 12</em>
+      </div>
+      <div class="timeline-item">
+        <strong>Ranking Enhancements</strong> – Edge n-gram fields, prefix-compatible boosting (Ranking) · <em>due Nov 12</em>
+      </div>
+      <div class="timeline-item">
+        <strong>NLP Fallbacks</strong> – Prefix-to-category lookup, vector fallback (NLP) · <em>due Nov 19</em>
+      </div>
+      <div class="timeline-item">
+        <strong>A/B Validation</strong> – Launch &amp; evaluate prefix-safe pipeline (PM) · <em>due Dec 3</em>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>References</h2>
+    <ul>
+      <li><a href="PREFIX_SHORT_STATS_20251027.json">Short/Long Query Metrics</a></li>
+      <li><a href="PREFIX_WL_FLAGGED_TOP_20251027.csv">Flagged Whitelist Entries</a></li>
+      <li><a href="SPELLCHECKER_AUTOFILL_ANALYSIS.md">Spellchecker Autocomplete Analysis</a></li>
+      <li><a href="PREFIX_SEARCH_REMEDIATION_PLAN.md">Remediation Plan &amp; Milestones</a></li>
+      <li><a href="PREFIX_DEBUG_DIFF_REPORT.csv">Debug API Correction Diff</a></li>
+    </ul>
+  </section>
+</main>
+<script>
+  const trafficData = [
+    { site: "Samokat", shortRatio: 20.027143519196958, shortZero: 5.31363186283451, overallZero: 9.535655736862789 },
+    { site: "Dixy Web", shortRatio: 19.022150230365453, shortZero: 0, overallZero: 0 },
+    { site: "Dixy B2B", shortRatio: 12.597718826092527, shortZero: 3.255340793489318, overallZero: 10.560041009868 },
+    { site: "Dixy App", shortRatio: 28.808896939750117, shortZero: 5.797362792643253, overallZero: 10.50884366950647 },
+    { site: "Azbuka Vkusa", shortRatio: 16.876843282823145, shortZero: 0, overallZero: 0 },
+    { site: "Auchan", shortRatio: 6.474371712498493, shortZero: 0.6190975865687304, overallZero: 4.424720143074783 }
+  ];
+
+  const ctxTraffic = document.getElementById('trafficChart');
+  new Chart(ctxTraffic, {
+    type: 'bar',
+    data: {
+      labels: trafficData.map(d => d.site),
+      datasets: [
+        {
+          label: 'Short-query share (%)',
+          data: trafficData.map(d => d.shortRatio),
+          backgroundColor: 'rgba(56, 189, 248, 0.6)',
+          borderRadius: 8
+        },
+        {
+          label: 'Short-query zero rate (%)',
+          data: trafficData.map(d => d.shortZero),
+          backgroundColor: 'rgba(236, 72, 153, 0.45)',
+          borderRadius: 8
+        },
+        {
+          label: 'Overall zero rate (%)',
+          data: trafficData.map(d => d.overallZero),
+          backgroundColor: 'rgba(134, 239, 172, 0.45)',
+          borderRadius: 8
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          labels: { color: '#e2e8f0', boxWidth: 14 }
+        }
+      },
+      scales: {
+        x: {
+          ticks: { color: '#cbd5f5' },
+          grid: { color: 'rgba(148,163,184,0.12)' }
+        },
+        y: {
+          ticks: { color: '#cbd5f5', callback: value => value + '%' },
+          grid: { color: 'rgba(148,163,184,0.08)' },
+          beginAtZero: true
+        }
+      }
+    }
+  });
+
+  const whitelistMatrix = {
+    "Samokat": { "latin_in_corr": 6, "cyril_added": 13, "equal": 1 },
+    "Dixy Web": { "cyril_added": 11, "latin_in_corr": 9 },
+    "Dixy B2B": { "cyril_added": 9, "latin_in_corr": 11 },
+    "Dixy App": { "cyril_added": 5, "latin_in_corr": 13, "added_digits": 4 },
+    "Azbuka Vkusa": { "cyril_added": 3, "latin_in_corr": 17 },
+    "Auchan": { "latin_in_corr": 4, "long_phrase": 1, "cyril_added": 15 }
+  };
+
+  const reasonPalette = {
+    'latin_in_corr': 'rgba(248,113,113,0.7)',
+    'cyril_added': 'rgba(129,140,248,0.7)',
+    'added_digits': 'rgba(251,191,36,0.7)',
+    'long_phrase': 'rgba(16,185,129,0.7)',
+    'equal': 'rgba(45,212,191,0.7)'
+  };
+
+  const sites = Object.keys(whitelistMatrix);
+  const reasonKeys = Array.from(new Set(
+    sites.flatMap(site => Object.keys(whitelistMatrix[site]))
+  ));
+
+  const ctxWhitelist = document.getElementById('whitelistChart');
+  new Chart(ctxWhitelist, {
+    type: 'bar',
+    data: {
+      labels: sites,
+      datasets: reasonKeys.map(reason => ({
+        label: reason.replace('_', ' '),
+        data: sites.map(site => whitelistMatrix[site][reason] || 0),
+        backgroundColor: reasonPalette[reason] || 'rgba(148,163,184,0.6)',
+        borderRadius: 8,
+        stack: 'stack0'
+      }))
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          labels: { color: '#e2e8f0', boxWidth: 14 }
+        }
+      },
+      scales: {
+        x: {
+          stacked: true,
+          ticks: { color: '#cbd5f5' },
+          grid: { color: 'rgba(148,163,184,0.12)' }
+        },
+        y: {
+          stacked: true,
+          ticks: { color: '#cbd5f5' },
+          grid: { color: 'rgba(148,163,184,0.08)' },
+          beginAtZero: true
+        }
+      }
+    }
+  });
+</script>
+</body>
+</html>
